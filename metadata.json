@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Carlson Gracie Tucson Landing Page",
+  "description": "Premium dark-mode landing page for Carlson Gracie Tucson Jiu-Jitsu academy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
