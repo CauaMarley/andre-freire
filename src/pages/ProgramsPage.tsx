@@ -69,13 +69,13 @@ export function Programs() {
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-[0_0_30px_rgba(220,38,38,0.15)]"
+            className="relative rounded-xl overflow-hidden shadow-[0_0_30px_rgba(220,38,38,0.15)]"
           >
             <div className="absolute inset-0 bg-black/20 z-10" />
             <img 
               src="https://carlsongracietucson.com/wp-content/uploads/2025/05/team_0143.jpg" 
               alt="Carlson Gracie Tucson Programs" 
-              className="w-full h-full object-cover"
+              className="w-full h-auto"
             />
           </motion.div>
         </div>

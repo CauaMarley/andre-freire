@@ -27,7 +27,7 @@ export function StartJiuJitsuTucsonFitnessSelfDefense() {
           <img 
             src="https://carlsongracietucson.com/wp-content/uploads/2025/05/SnapInsta.to_491268050_18005772002750365_346771231950353141_n_1080-1.jpg" 
             alt="Start Jiu Jitsu for Fitness and Defense" 
-            className="w-full rounded-2xl shadow-xl mb-12 object-cover h-[400px] object-[center_top]" 
+            className="w-full rounded-2xl shadow-xl mb-12 h-auto" 
           />
 
           <h2>Carlson Gracie Tucson: Start Your Jiu-Jitsu Journey Today for Fitness and Self-Defense</h2>

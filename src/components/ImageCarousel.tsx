@@ -1,5 +1,6 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
+import Autoplay from 'embla-carousel-autoplay';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const images = [
@@ -14,15 +15,18 @@ const images = [
 ];
 
 export function ImageCarousel() {
-  const [emblaRef, emblaApi] = useEmblaCarousel({ 
-    loop: true,
-    align: 'start',
-    slidesToScroll: 1,
-    breakpoints: {
-      '(min-width: 768px)': { slidesToScroll: 2 },
-      '(min-width: 1024px)': { slidesToScroll: 4 }
-    }
-  });
+  const [emblaRef, emblaApi] = useEmblaCarousel(
+    { 
+      loop: true,
+      align: 'start',
+      slidesToScroll: 1,
+      breakpoints: {
+        '(min-width: 768px)': { slidesToScroll: 2 },
+        '(min-width: 1024px)': { slidesToScroll: 4 }
+      }
+    },
+    [Autoplay({ delay: 3000, stopOnInteraction: true })]
+  );
 
   const [prevBtnEnabled, setPrevBtnEnabled] = useState(false);
   const [nextBtnEnabled, setNextBtnEnabled] = useState(false);

@@ -1,6 +1,7 @@
 import { useState, useCallback, useEffect } from 'react';
 import { motion } from 'motion/react';
 import useEmblaCarousel from 'embla-carousel-react';
+import Autoplay from 'embla-carousel-autoplay';
 import { Star, ChevronLeft, ChevronRight, CheckCircle2 } from 'lucide-react';
 
 const testimonials = [
@@ -97,15 +98,18 @@ const testimonials = [
 ];
 
 export function Testimonials() {
-  const [emblaRef, emblaApi] = useEmblaCarousel({ 
-    loop: true,
-    align: 'start',
-    slidesToScroll: 1,
-    breakpoints: {
-      '(min-width: 768px)': { slidesToScroll: 2 },
-      '(min-width: 1024px)': { slidesToScroll: 3 }
-    }
-  });
+  const [emblaRef, emblaApi] = useEmblaCarousel(
+    { 
+      loop: true,
+      align: 'start',
+      slidesToScroll: 1,
+      breakpoints: {
+        '(min-width: 768px)': { slidesToScroll: 2 },
+        '(min-width: 1024px)': { slidesToScroll: 3 }
+      }
+    },
+    [Autoplay({ delay: 4000, stopOnInteraction: true })]
+  );
 
   const [prevBtnEnabled, setPrevBtnEnabled] = useState(false);
   const [nextBtnEnabled, setNextBtnEnabled] = useState(false);

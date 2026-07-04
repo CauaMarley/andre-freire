@@ -27,7 +27,7 @@ export function JiuJitsuClassesAllAgesFitnessTucson() {
           <img 
             src="https://carlsongracietucson.com/wp-content/uploads/2025/06/snapins-ai_3583484406528291350-768x448.jpg" 
             alt="Jiu-Jitsu Classes for All Ages" 
-            className="w-full rounded-2xl shadow-xl mb-12 object-cover h-[400px] object-[center_top]" 
+            className="w-full rounded-2xl shadow-xl mb-12 h-auto" 
           />
 
           <h2>Jiu-Jitsu Classes for All Ages and Fitness Levels at Carlson Gracie Tucson</h2>

@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { Booking } from "../components/Booking";
-import { MapPin, Phone, Mail, Instagram, Facebook, Youtube } from "lucide-react";
+import { MapPin, Phone, Mail, Instagram, Facebook } from "lucide-react";
 
 export function Contact() {
   return (
@@ -69,14 +69,11 @@ export function Contact() {
             <div className="pt-4 border-t border-zinc-800 w-full text-center">
               <p className="text-zinc-500 text-sm uppercase tracking-widest mb-4">Follow Us</p>
               <div className="flex items-center justify-center gap-6 text-zinc-400">
-                <a href="#" className="hover:text-red-500 transition-colors">
+                <a href="https://www.instagram.com/carlsongracietucson/" target="_blank" rel="noopener noreferrer" className="hover:text-red-500 transition-colors">
                   <Instagram className="w-6 h-6" />
                 </a>
-                <a href="#" className="hover:text-red-500 transition-colors">
+                <a href="https://web.facebook.com/carlsongracietucson" target="_blank" rel="noopener noreferrer" className="hover:text-red-500 transition-colors">
                   <Facebook className="w-6 h-6" />
-                </a>
-                <a href="#" className="hover:text-red-500 transition-colors">
-                  <Youtube className="w-6 h-6" />
                 </a>
               </div>
             </div>

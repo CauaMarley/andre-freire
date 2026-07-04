@@ -27,7 +27,7 @@ export function BjjAdultsKidsTucsonFitnessDefense() {
           <img 
             src="https://carlsongracietucson.com/wp-content/uploads/2025/05/WhatsApp-Image-2025-05-23-at-22.00.55-6-1.jpeg" 
             alt="Adults and Kids BJJ Training" 
-            className="w-full rounded-2xl shadow-xl mb-12 object-cover h-[400px] object-[center_top]" 
+            className="w-full rounded-2xl shadow-xl mb-12 h-auto" 
           />
 
           <h2>Carlson Gracie Tucson: Jiu-Jitsu for Adults and Kids – Fitness, Confidence, and Self-Defense</h2>

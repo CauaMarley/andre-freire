@@ -27,7 +27,7 @@ export function HowToStartJiuJitsuInTucson() {
           <img 
             src="https://carlsongracietucson.com/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-24-at-14.11.48.webp" 
             alt="Start Jiu Jitsu Tucson Beginner" 
-            className="w-full rounded-2xl shadow-xl mb-12 object-cover h-[400px] object-[center_top]" 
+            className="w-full rounded-2xl shadow-xl mb-12 h-auto" 
           />
 
           <h2>How to Start Jiu Jitsu in Tucson: A Complete Beginner Guide</h2>

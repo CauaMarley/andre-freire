@@ -27,7 +27,7 @@ export function SelfDefenseClassesTucsonJiuJitsu() {
           <img 
             src="https://carlsongracietucson.com/wp-content/uploads/2025/06/snapins-ai_3583484406528291350.jpg" 
             alt="Self Defense Tucson" 
-            className="w-full rounded-2xl shadow-xl mb-12 object-cover h-[400px] object-[center_top]" 
+            className="w-full rounded-2xl shadow-xl mb-12 h-auto" 
           />
 
           <h2>Looking for Self-Defense Classes in Tucson? Join Carlson Gracie for Jiu-Jitsu</h2>
