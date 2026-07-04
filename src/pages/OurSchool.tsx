@@ -1,10 +1,12 @@
 import { motion } from "motion/react";
 import { Link } from "react-router-dom";
+import { Testimonials } from "../components/Testimonials";
 
 export function OurSchool() {
   return (
-    <div className="pt-24 pb-24 bg-zinc-950">
+    <div className="pt-24 pb-24 bg-zinc-950 min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
         {/* Hero Section */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -25,59 +27,77 @@ export function OurSchool() {
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="relative aspect-[4/3] rounded-xl overflow-hidden border-2 border-zinc-800"
+            className="space-y-6"
           >
-            <img 
-              src="https://carlsongracietucson.com/wp-content/uploads/2025/06/snapins-ai_3583484406528291350.jpg" 
-              alt="Carlson Gracie Tucson Academy" 
-              className="w-full h-full object-cover"
-            />
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-white uppercase tracking-wide border-l-4 border-red-600 pl-4">
+              Your Journey Starts Today
+            </h2>
+            <div className="text-zinc-400 space-y-4 leading-relaxed text-lg">
+              <p>
+                If you're looking to flip your fitness routine upside down, look no further. At Carlson Gracie Tucson, we believe that anyone is capable of success.
+              </p>
+              <p>
+                The art of Brazilian Jiu-Jitsu is not just amazing for the body, but it cultivates the mind too. Carlson Gracie Tucson's Jiu-Jitsu program will help you master self-defense, while also instilling a lifelong sense of confidence and empowerment. Get started today!
+              </p>
+            </div>
+            <Link to="/contact" className="inline-block mt-4 bg-red-700 hover:bg-red-600 text-white px-8 py-4 rounded font-bold uppercase tracking-wider transition-colors shadow-lg hover:-translate-y-1">
+              Start Your Journey
+            </Link>
           </motion.div>
+          
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="space-y-6"
+            className="relative aspect-[4/3] rounded-xl overflow-hidden border-2 border-zinc-800 shadow-[0_0_30px_rgba(220,38,38,0.15)]"
           >
-            <h2 className="text-3xl font-heading font-bold text-white uppercase tracking-wide border-l-4 border-red-600 pl-4">
-              A Welcoming Environment
-            </h2>
-            <div className="text-zinc-400 space-y-4 leading-relaxed">
-              <p>
-                We uphold an encouraging and uplifting environment, and above all else, want to see you succeed. If you join Carlson Gracie Tucson, you'll not only grow as an athlete, but you'll grow as a person.
-              </p>
-              <p>
-                Unlock your full potential at Carlson Gracie Tucson Jujitsu, a premier martial arts institution that has been a transformative experience for our students. The staff and coaches are exceptional.
-              </p>
-              <p>
-                You won't find a better children's program in Tucson. They consistently maintain exceptional coach to student ratios in class. The adult programs offer a competitive atmosphere while also featuring an executive program for those still wishing to train at a slower pace.
-              </p>
-            </div>
-            <Link to="/contact" className="inline-block mt-4 bg-red-700 hover:bg-red-600 text-white px-8 py-3 rounded uppercase font-bold tracking-wider transition-colors">
-              Join Our Family
-            </Link>
+            <img 
+              src="https://carlsongracietucson.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-27-160021.png" 
+              alt="Carlson Gracie Tucson Academy" 
+              className="w-full h-full object-cover"
+            />
           </motion.div>
         </div>
 
-        {/* Gallery */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {[
-            "https://carlsongracietucson.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-151641.png",
-            "https://carlsongracietucson.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-151829.png",
-            "https://carlsongracietucson.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-151512.png"
-          ].map((src, idx) => (
-            <motion.div
-              key={idx}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: idx * 0.1 }}
-              className="aspect-square rounded-lg overflow-hidden"
-            >
-              <img src={src} alt="Academy Life" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
-            </motion.div>
-          ))}
+        {/* Features Section */}
+        <div className="mb-12">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-12"
+          >
+             <h2 className="text-3xl md:text-5xl font-heading font-bold text-white uppercase tracking-tight mb-4">
+              <span className="text-red-600">Features</span>
+            </h2>
+            <p className="text-zinc-400 text-lg max-w-2xl mx-auto">
+              While you may have many Jiu-Jitsu schools to choose from, we have no doubt that Carlson Gracie Tucson is in a league of its own. Don't believe us? Here's why:
+            </p>
+          </motion.div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              "https://carlsongracietucson.com/wp-content/uploads/2025/05/Frame-1321314761.png",
+              "https://carlsongracietucson.com/wp-content/uploads/2025/05/Frame-1321314762.png",
+              "https://carlsongracietucson.com/wp-content/uploads/2025/05/Frame-1321314760-1.png"
+            ].map((src, idx) => (
+              <motion.div
+                key={idx}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: idx * 0.1 }}
+                className="aspect-square rounded-xl overflow-hidden border border-zinc-800 shadow-xl bg-zinc-900 flex items-center justify-center p-4"
+              >
+                <img src={src} alt="Feature" className="w-full h-full object-contain hover:scale-110 transition-transform duration-700" />
+              </motion.div>
+            ))}
+          </div>
         </div>
+      </div>
+      
+      {/* Testimonials (Re-used from Home page) */}
+      <div className="bg-white py-1">
+        <Testimonials />
       </div>
     </div>
   );

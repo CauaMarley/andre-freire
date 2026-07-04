@@ -53,15 +53,15 @@ export function Navbar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex-shrink-0">
-              <Link to="/" className="flex items-center gap-3">
-                <div className="w-12 h-12 flex items-center justify-center p-1">
+              <Link to="/" className="flex items-center gap-2 sm:gap-3">
+                <div className="w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center p-1">
                   <img src="https://cgnorthtucson.com/wp-content/uploads/2026/05/logo-sem-fundo.png" alt="Carlson Gracie Logo" className="w-full h-full object-contain" />
                 </div>
                 <div className="flex flex-col">
-                  <span className="font-heading font-bold text-xl tracking-wider uppercase text-white leading-tight">
+                  <span className="font-heading font-bold text-base sm:text-xl tracking-wider uppercase text-white leading-tight">
                     Carlson Gracie
                   </span>
-                  <span className="text-red-600 text-sm font-bold tracking-widest uppercase leading-tight border-t border-zinc-800 pt-0.5">
+                  <span className="text-red-600 text-[10px] sm:text-sm font-bold tracking-widest uppercase leading-tight border-t border-zinc-800 pt-0.5 mt-0.5">
                     Tucson
                   </span>
                 </div>
@@ -127,16 +127,16 @@ export function Navbar() {
               </div>
             </div>
             
-            <div className="lg:hidden flex items-center space-x-2">
+            <div className="lg:hidden flex items-center gap-3">
               <Link
                 to="/contact"
-                className="bg-red-700 hover:bg-red-600 text-white px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition-all shadow-[0_0_10px_rgba(220,38,38,0.3)]"
+                className="bg-red-700 hover:bg-red-600 text-white px-4 py-1.5 rounded-full text-[11px] font-bold uppercase tracking-widest transition-colors shadow-sm whitespace-nowrap"
               >
                 Try Class
               </Link>
               <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="text-zinc-300 hover:text-white p-2"
+                className="text-zinc-300 hover:text-white"
               >
                 {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
               </button>

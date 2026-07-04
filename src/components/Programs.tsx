@@ -7,28 +7,35 @@ const programs = [
     title: "Kids Jiu-Jitsu",
     description: "Brazilian Jiu-Jitsu (BJJ) isn't just for adults. In fact, it's the perfect activity for kids!",
     image: "https://carlsongracietucson.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-151512.png",
-    url: "/programs"
+    url: "/kids-jiu-jitsu"
   },
   {
     id: "adults",
     title: "Adult & Teens Jiu-Jitsu",
     description: "Brazilian Jiu-Jitsu (BJJ) has gained a lot of attention in recent years, and it's pretty obvious why.",
     image: "https://carlsongracietucson.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-151641.png",
-    url: "/programs"
+    url: "/adult-e-teens-jiu-jitsu"
   },
   {
     id: "competition",
     title: "Competition Jiu-Jitsu",
     description: "Are you ready to take your skills to the next level? Well, you've come to the right place.",
     image: "https://carlsongracietucson.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-151829.png",
-    url: "/programs"
+    url: "/competition-jiu-jitsu"
   },
   {
     id: "womens",
     title: "Women's Only Jiu Jitsu",
     description: "At Carlson Gracie Tucson, the spirit of jiu-jitsu thrives within a unique enclave – the Women's Jiu-Jitsu Class.",
     image: "https://carlsongracietucson.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-151727.png",
-    url: "/programs"
+    url: "/womens-only"
+  },
+  {
+    id: "executive",
+    title: "Executive Class",
+    description: "Our 40+ Jiu-Jitsu Program is specifically designed for adults who want to stay active, build confidence, and improve their overall health.",
+    image: "https://carlsongracietucson.com/wp-content/uploads/2025/05/WhatsApp-Image-2024-03-13-at-7.05.32-PM-1-1333x1000-1-1024x768.jpeg",
+    url: "/executiveclass"
   },
 ];
 

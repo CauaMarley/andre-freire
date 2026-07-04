@@ -37,12 +37,12 @@ export function Andre() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="rounded-[3rem] overflow-hidden shadow-2xl h-[500px]"
+            className="rounded-[3rem] overflow-hidden shadow-2xl w-full"
           >
             <img 
               src="https://carlsongracietucson.com/wp-content/uploads/2025/05/SnapInsta.to_467954322_18470802808018850_5966120767544216934_n.jpg" 
               alt="Professor André Freire" 
-              className="w-full h-full object-cover object-top"
+              className="w-full h-auto object-cover object-top"
             />
           </motion.div>
         </div>
@@ -54,13 +54,13 @@ export function Andre() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="rounded-[3rem] overflow-hidden shadow-2xl h-[500px] order-2 lg:order-1"
+            className="rounded-[3rem] overflow-hidden shadow-2xl w-full order-2 lg:order-1"
           >
             <img 
               src="https://carlsongracietucson.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-28-132634.png" 
               alt="Professor André Freire Medals" 
               loading="lazy"
-              className="w-full h-full object-cover object-center"
+              className="w-full h-auto object-cover object-center"
             />
           </motion.div>
           <motion.div
@@ -101,13 +101,13 @@ export function Andre() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="rounded-[3rem] overflow-hidden shadow-2xl h-[500px]"
+            className="rounded-[3rem] overflow-hidden shadow-2xl w-full"
           >
             <img 
               src="https://carlsongracietucson.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-28-134101.png" 
               alt="Professor André Freire Champion" 
               loading="lazy"
-              className="w-full h-full object-cover object-center"
+              className="w-full h-auto object-cover object-center"
             />
           </motion.div>
         </div>
@@ -119,13 +119,13 @@ export function Andre() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="rounded-[3rem] overflow-hidden shadow-2xl h-[500px] order-2 lg:order-1"
+            className="rounded-[3rem] overflow-hidden shadow-2xl w-full order-2 lg:order-1"
           >
             <img 
               src="https://carlsongracietucson.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-28-134503.png" 
               alt="Professor André Freire Kids Class" 
               loading="lazy"
-              className="w-full h-full object-cover object-center"
+              className="w-full h-auto object-cover object-center"
             />
           </motion.div>
           <motion.div

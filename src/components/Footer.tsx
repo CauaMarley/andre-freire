@@ -25,7 +25,7 @@ export function Footer() {
             </ul>
           </motion.div>
 
-          {/* Contact Information */}
+            {/* Contact Information */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -33,40 +33,60 @@ export function Footer() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="relative md:border-l md:border-r border-zinc-200 md:px-8"
           >
-            {/* Design detail from screenshot */}
-            <div className="absolute top-0 left-8 bg-zinc-700 text-white text-xs text-center p-3 w-32 hidden lg:block -mt-10">
-              CARLSON GRACIE NORTH TUCSON
-              <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-4 h-4 bg-zinc-700 rotate-45"></div>
-            </div>
-
             <h4 className="font-heading font-bold text-2xl uppercase tracking-wider mb-6 text-black">Contact Us</h4>
             
             <div className="space-y-6">
-              <div className="flex items-center gap-3 text-zinc-800 font-medium">
-                <Phone className="w-5 h-5 text-black" />
-                <span>520-849-5246</span>
+              <div>
+                <h5 className="font-bold text-red-600 uppercase text-sm mb-2">Carlson Gracie Tucson</h5>
+                <div className="space-y-2">
+                  <div className="flex items-center gap-3 text-zinc-800 font-medium text-sm">
+                    <Phone className="w-4 h-4 text-black" />
+                    <span>520-849-5246</span>
+                  </div>
+                  <div className="flex items-center gap-3 text-zinc-800 font-medium text-sm">
+                    <Mail className="w-4 h-4 text-black" />
+                    <span className="truncate break-all">carlsongracietucson@gmail.com</span>
+                  </div>
+                  <a 
+                    href="https://maps.app.goo.gl/5R7sB3Zy7jNxXNf87"
+                    target="_blank"
+                    rel="noopener noreferrer" 
+                    className="flex items-start gap-3 text-zinc-800 font-medium hover:text-red-600 transition-colors group text-sm"
+                  >
+                    <MapPin className="w-4 h-4 text-black mt-1 group-hover:text-red-600 transition-colors shrink-0" />
+                    <span>
+                      8822 East Broadway Blvd,<br />
+                      Tucson, AZ 85710
+                    </span>
+                  </a>
+                </div>
               </div>
-              <div className="flex items-center gap-3 text-zinc-800 font-medium">
-                <Mail className="w-5 h-5 text-black" />
-                <span>carlsongracietucson@gmail.com</span>
+
+              <div className="pt-4 border-t border-zinc-200">
+                <h5 className="font-bold text-red-600 uppercase text-sm mb-2">Carlson Gracie North Tucson</h5>
+                <div className="space-y-2">
+                  <div className="flex items-center gap-3 text-zinc-800 font-medium text-sm">
+                    <Phone className="w-4 h-4 text-black" />
+                    <span>520-801-7821</span>
+                  </div>
+                  <a 
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer" 
+                    className="flex items-start gap-3 text-zinc-800 font-medium hover:text-red-600 transition-colors group text-sm"
+                  >
+                    <MapPin className="w-4 h-4 text-black mt-1 group-hover:text-red-600 transition-colors shrink-0" />
+                    <span>
+                      1749 E Prince Rd,<br />
+                      Tucson, AZ 85719
+                    </span>
+                  </a>
+                </div>
               </div>
-              <a 
-                href="https://maps.app.goo.gl/5R7sB3Zy7jNxXNf87"
-                target="_blank"
-                rel="noopener noreferrer" 
-                className="flex items-start gap-3 text-zinc-800 font-medium hover:text-red-600 transition-colors group"
-              >
-                <MapPin className="w-5 h-5 text-black mt-1 group-hover:text-red-600 transition-colors" />
-                <span>
-                  8822 East Broadway<br />
-                  Boulevard, Tucson, AZ<br />
-                  85710
-                </span>
-              </a>
             </div>
 
             <div className="mt-8 text-sm text-zinc-500">
-              <a href="#" className="hover:text-red-600 transition-colors">Privacy Policy</a> / <a href="#" className="hover:text-red-600 transition-colors">Terms of Service</a>
+              <Link to="/privacy-policy" className="hover:text-red-600 transition-colors">Privacy Policy</Link> / <Link to="/terms-of-service" className="hover:text-red-600 transition-colors">Terms of Service</Link>
             </div>
           </motion.div>
 

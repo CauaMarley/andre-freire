@@ -18,6 +18,12 @@ const instructors = [
     role: "Brown Belt / Kids and Adult",
     bio: "Nathan Wright is a brown belt under Professor Andre Freire and has been practicing Brazilian Jiu-Jitsu for over five years. For more than four of those years, he has specialized in coaching children, blending his passion for the art with a strong commitment to youth development. Nathan brings an energetic and encouraging presence to the mats, ensuring every child feels confident while learning vital self-defense skills.",
     image: "https://carlsongracietucson.com/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-24-at-16.42.03-1536x1025.webp",
+  },
+  {
+    name: "Emery Fesler",
+    role: "Purple Belt / Women's Instructor",
+    bio: "Emery Fesler is a purple belt that has been training and studying under Professor André since the very start of her Jiu Jitsu journey. She is currently leading the women's only classes at Carlson Gracie Tucson - East side, helping other women feel comfortable and empowered.",
+    image: "https://i.imgur.com/FsdATKv.png",
   }
 ];
 
@@ -54,7 +60,7 @@ export function InstructorsPage() {
                   <img
                     src={instructor.image}
                     alt={instructor.name}
-                    className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700"
+                    className="w-full h-auto object-cover object-top group-hover:scale-105 transition-transform duration-700"
                   />
                 </div>
               </div>

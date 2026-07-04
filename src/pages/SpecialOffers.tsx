@@ -1,47 +1,35 @@
 import { motion } from "motion/react";
 import { Link } from "react-router-dom";
-import { Check, Shield, Star, Calendar } from "lucide-react";
 
 export function SpecialOffers() {
   const offers = [
     {
-      id: "first-month",
-      title: "First Month FREE!",
-      description: "We will pay for your 1st month of Jiu jitsu classes with your upfront purchase of a uniform (Gi and Rash Guard) and a 2-month membership commitment after the free month.",
-      features: [
-        "First month completely FREE",
-        "NO registration fee (extra incentive!)",
-        "Includes access to all fundamental classes",
-        "Start your journey with professional gear"
-      ],
-      icon: Star,
-      popular: true
+      id: "womens",
+      title: "CELEBRATE WOMEN´S",
+      description: "Celebrate women at Carlson Gracie Tucson! We believe in the power and strength of every woman. To honor you, we are launching our exclusive Women Special. Come train jiu jitsu, learn essential self defense skills, and build unstoppable confidence on the mat. Join our amazing community of strong female warriors today. Discover your true potential and claim your offer!",
+      image: "https://carlsongracietucson.com/wp-content/uploads/2026/03/promocao-mulheres_.webp",
+      buttonText: "Schedule Today",
     },
     {
       id: "military",
-      title: "Military Special",
-      description: "Attention Tucson military! As a thank you for your service, we have exclusive plans for active duty heroes and veterans. Improve your self-defense and strengthen your mind.",
-      features: [
-        "Exclusive pricing for active duty & veterans",
-        "Join a team of disciplined warriors",
-        "Build mental and physical resilience",
-        "Flexible training schedules"
-      ],
-      icon: Shield,
-      popular: false
+      title: "MILITARY SPECIAL",
+      description: "Attention Tucson military! Carlson Gracie Academy honors your courage. As a thank you for your service, we proudly launch our Military Special. Come train jiu jitsu, improve your self defense, and strengthen your mind. We have exclusive plans for active duty heroes and veterans. Come be part of our team. Show all your strength. Secure this incredible offer today!",
+      image: "https://carlsongracietucson.com/wp-content/uploads/2026/03/Promocao-militares_.webp",
+      buttonText: "Schedule Today",
     },
     {
-      id: "womens",
-      title: "Women's Special",
-      description: "We believe in the power and strength of every woman. Come train jiu-jitsu, learn essential self-defense skills, and build unstoppable confidence on the mat.",
-      features: [
-        "Learn essential self-defense skills",
-        "Build unstoppable confidence",
-        "Join an amazing community of strong women",
-        "Supportive learning environment"
-      ],
-      icon: Check,
-      popular: false
+      id: "free-trial",
+      title: "FREE Trial Class",
+      description: "Still not sure that BJJ is for you? Don't just take our word for it, experience Carlson Gracie Tucson for yourself. Sign up today and enjoy a free first class! Step on the mat, meet our welcoming instructors, and discover how martial arts can transform your life. No prior experience is needed to begin. Secure your spot right now!",
+      image: "https://carlsongracietucson.com/wp-content/uploads/2026/03/free_trial_class.webp",
+      buttonText: "Register Here",
+    },
+    {
+      id: "first-month",
+      title: "First Month FREE!",
+      description: "We will pay for your 1st month of Jiu jitsu classes with your upfront purchase of a uniform (Gi and Rash Guard) and a 2 month membership commitment after the free month. Also, we will cover the registration fee as an extra incentive. So, basically you get a month FREE and NO registration fee here at Carlson Gracie Tucson.",
+      image: "https://carlsongracietucson.com/wp-content/uploads/2026/03/first_month_free_.webp",
+      buttonText: "Register Here",
     }
   ];
 
@@ -65,93 +53,43 @@ export function SpecialOffers() {
         </motion.div>
       </div>
 
-      {/* Free Trial Banner */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
-        <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 0.2 }}
-          className="bg-red-700 rounded-2xl p-8 md:p-12 text-center relative overflow-hidden shadow-[0_0_40px_rgba(220,38,38,0.3)]"
-        >
-          <div className="absolute inset-0 bg-[url('https://carlsongracietucson.com/wp-content/uploads/2025/06/snapins-ai_3583484406528291350.jpg')] opacity-10 bg-cover bg-center mix-blend-overlay" />
-          <div className="relative z-10">
-            <Calendar className="w-12 h-12 text-white mx-auto mb-6" />
-            <h2 className="text-3xl md:text-5xl font-heading font-bold text-white uppercase tracking-tight mb-4">
-              Free First Class
-            </h2>
-            <p className="text-red-100 text-lg max-w-2xl mx-auto mb-8">
-              Still not sure that BJJ is for you? Don't just take our word for it, experience Carlson Gracie Tucson for yourself. Step on the mat, meet our welcoming instructors, and discover how martial arts can transform your life. No prior experience needed!
-            </p>
-            <Link
-              to="/contact"
-              className="inline-block bg-white text-red-700 px-8 py-4 rounded-full font-bold uppercase tracking-wider hover:bg-zinc-100 transition-colors shadow-lg hover:scale-105 active:scale-95"
-            >
-              Schedule Today
-            </Link>
-          </div>
-        </motion.div>
-      </div>
-
-      {/* Pricing/Offers Cards */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {offers.map((offer, index) => {
-            const Icon = offer.icon;
-            return (
-              <motion.div
-                key={offer.id}
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.3 + index * 0.1 }}
-                className={`relative flex flex-col p-8 rounded-2xl border ${
-                  offer.popular 
-                    ? "bg-zinc-900 border-red-600 shadow-[0_0_30px_rgba(220,38,38,0.15)] md:-mt-8 md:mb-8" 
-                    : "bg-zinc-900/50 border-zinc-800"
-                }`}
-              >
-                {offer.popular && (
-                  <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-red-600 text-white px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
-                    Most Popular
-                  </div>
-                )}
-                
-                <div className="mb-6">
-                  <div className={`w-12 h-12 rounded-lg flex items-center justify-center mb-6 ${offer.popular ? 'bg-red-600/20 text-red-500' : 'bg-zinc-800 text-zinc-400'}`}>
-                    <Icon className="w-6 h-6" />
-                  </div>
-                  <h3 className="text-2xl font-heading font-bold text-white uppercase tracking-wide mb-3">
-                    {offer.title}
-                  </h3>
-                  <p className="text-zinc-400 text-sm leading-relaxed min-h-[80px]">
-                    {offer.description}
-                  </p>
-                </div>
-
-                <div className="flex-grow">
-                  <ul className="space-y-4 mb-8">
-                    {offer.features.map((feature, idx) => (
-                      <li key={idx} className="flex items-start gap-3">
-                        <Check className={`w-5 h-5 shrink-0 ${offer.popular ? 'text-red-500' : 'text-zinc-500'}`} />
-                        <span className="text-zinc-300 text-sm">{feature}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-
-                <Link
-                  to="/contact"
-                  className={`block w-full text-center px-6 py-3 rounded-md font-bold uppercase tracking-wider transition-all ${
-                    offer.popular
-                      ? "bg-red-700 hover:bg-red-600 text-white shadow-lg"
-                      : "bg-zinc-800 hover:bg-zinc-700 text-white"
-                  }`}
-                >
-                  Claim Offer
+      {/* Offers List */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-20">
+        {offers.map((offer, index) => (
+          <motion.div
+            key={offer.id}
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.6 }}
+            className={`flex flex-col lg:flex-row gap-10 items-center ${index % 2 !== 0 ? 'lg:flex-row-reverse' : ''}`}
+          >
+            <div className="w-full lg:w-1/2">
+              <div className="relative aspect-square md:aspect-[4/3] rounded-2xl overflow-hidden border-l-4 border-red-600 bg-zinc-900 shadow-[0_0_30px_rgba(220,38,38,0.15)] group">
+                <div className="absolute inset-0 bg-black/40 group-hover:bg-transparent transition-colors duration-500 z-10" />
+                <img
+                  src={offer.image}
+                  alt={offer.title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                />
+              </div>
+            </div>
+            
+            <div className="w-full lg:w-1/2 space-y-6">
+              <h2 className="text-3xl md:text-4xl font-heading font-bold text-white uppercase tracking-wide border-b border-zinc-800 pb-4 inline-block">
+                {offer.title}
+              </h2>
+              <div className="text-zinc-300 text-lg leading-relaxed space-y-4">
+                <p>{offer.description}</p>
+              </div>
+              <div className="pt-4">
+                <Link to="/contact" className="inline-block bg-red-700 hover:bg-red-600 text-white px-8 py-4 rounded uppercase font-bold tracking-wider transition-colors shadow-lg hover:-translate-y-1">
+                  {offer.buttonText}
                 </Link>
-              </motion.div>
-            );
-          })}
-        </div>
+              </div>
+            </div>
+          </motion.div>
+        ))}
       </div>
     </div>
   );

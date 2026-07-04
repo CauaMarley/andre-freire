@@ -7,27 +7,28 @@ const instructors = [
     role: "Head Instructor / 3rd-Degree Black Belt",
     bio: "André Freire is a bonafide Brazilian with a 3rd-degree black belt in Brazilian Jiu-Jitsu, who has extensive teaching experience and who enjoys sharing his skills as he teaches both children and adult classes. André believes that respect is an important value in life and that you must give respect to get respect. To André fighting and competing teaches respect.",
     image: "https://carlsongracietucson.com/wp-content/uploads/2025/05/SnapInsta.to_467954322_18470802808018850_5966120767544216934_n.jpg",
-    link: "https://carlsongracietucson.com/andre/"
+    link: "/andre"
   },
   {
     name: "Coach Dan Modrzejewski",
     role: "Brown Belt / Fundamental & Executive Class",
     bio: "Dr. Dan Modrzejewski is a native of Tucson, Arizona. His initial martial arts training began in middle school where he participated in Kenpo Karate earning his brown belt, then moved to wrestling in high school and college. Dan has been involved with Jiu Jitsu for over 10 years.",
     image: "https://carlsongracietucson.com/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-24-at-14.11.48.webp",
-    link: "https://carlsongracietucson.com/coach-dan-modrzejewski/"
+    link: "/coach-dan-modrzejewski"
   },
   {
     name: "Nathan Wright",
     role: "Brown Belt / Kids and Adult",
     bio: "Nathan Wright is a brown belt under Professor Andre Freire and has been practicing Brazilian Jiu-Jitsu for over five years. For more than four of those years, he has specialized in coaching children, blending his passion for the art with a strong commitment to youth development.",
     image: "https://carlsongracietucson.com/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-24-at-16.42.03-1536x1025.webp",
-    link: "https://carlsongracietucson.com/nathan-wright/"
+    link: "/nathan-wright"
   },
   {
     name: "Emery Fesler",
     role: "Purple Belt / Women's Instructor",
-    bio: "Emery Fesler is a purple belt that has been training and studying under Professor André since the very start of her Jiu Jitsu journey. She is currently leading the women’s only classes at Carlson Gracie Tucson - East side. She takes all that Professor André has taught her, and applies it in her own classes. She has a strong desire to help other women understand Jiu Jitsu and feel comfortable in their learning environment and feel empowered in understanding the self-defense aspects of Jiu Jitsu. She will share her passion and love of Jiu Jitsu with anyone that walks in the gym!\n\nEmery not only trains Brazilian Jiu Jitsu, but is also a recent graduate with her Masters Degree of Acupuncture and specialization in Herbal Medicine. She is a firm advocate for empowering others to live healthy and active lives. Emery hopes to combine her love of Jiu Jitsu and health and wellness, in supporting the students at Carlson Gracie Tucson to be able to feel and perform at their best!",
+    bio: "Emery Fesler is a purple belt that has been training and studying under Professor André since the very start of her Jiu Jitsu journey. She is currently leading the women's only classes at Carlson Gracie Tucson - East side, helping other women feel comfortable and empowered.",
     image: "https://i.imgur.com/FsdATKv.png",
+    link: "/emery-fesler"
   }
 ];
 
@@ -79,9 +80,9 @@ export function Instructors() {
                 </div>
                 <div className="pt-6">
                   {instructor.link && (
-                    <a href={instructor.link} target="_blank" rel="noopener noreferrer" className="inline-block bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 hover:border-zinc-700 text-white px-6 py-2 rounded-sm text-sm uppercase tracking-wider transition-colors font-semibold">
+                    <Link to={instructor.link} className="inline-block bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 hover:border-zinc-700 text-white px-6 py-2 rounded-sm text-sm uppercase tracking-wider transition-colors font-semibold">
                       Read Full Bio
-                    </a>
+                    </Link>
                   )}
                 </div>
               </div>
