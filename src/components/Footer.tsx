@@ -18,7 +18,7 @@ export function Footer() {
             <h4 className="font-heading font-bold text-2xl uppercase tracking-wider mb-6 text-black">Menu</h4>
             <ul className="space-y-3">
               <li><Link to="/" className="text-zinc-600 hover:text-red-600 transition-colors uppercase text-sm tracking-wide">Home</Link></li>
-              <li><Link to="/#programs" className="text-zinc-600 hover:text-red-600 transition-colors uppercase text-sm tracking-wide border-t border-zinc-100 pt-3 block">Programs</Link></li>
+              <li><Link to="/programs" className="text-zinc-600 hover:text-red-600 transition-colors uppercase text-sm tracking-wide border-t border-zinc-100 pt-3 block">Programs</Link></li>
               <li><Link to="/schedule" className="text-zinc-600 hover:text-red-600 transition-colors uppercase text-sm tracking-wide border-t border-zinc-100 pt-3 block">Schedule</Link></li>
               <li><Link to="/contact" className="text-zinc-600 hover:text-red-600 transition-colors uppercase text-sm tracking-wide border-t border-zinc-100 pt-3 block">Contact Us</Link></li>
               <li><Link to="/our-school" className="text-zinc-600 hover:text-red-600 transition-colors uppercase text-sm tracking-wide border-t border-zinc-100 pt-3 block">About Us</Link></li>
