@@ -7,28 +7,28 @@ export function SpecialOffers() {
       id: "womens",
       title: "CELEBRATE WOMEN´S",
       description: "Celebrate women at Carlson Gracie Tucson! We believe in the power and strength of every woman. To honor you, we are launching our exclusive Women Special. Come train jiu jitsu, learn essential self defense skills, and build unstoppable confidence on the mat. Join our amazing community of strong female warriors today. Discover your true potential and claim your offer!",
-      image: "https://carlsongracietucson.com/wp-content/uploads/2026/03/promocao-mulheres_.webp",
+      image: "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2026/03/promocao-mulheres_.webp",
       buttonText: "Schedule Today",
     },
     {
       id: "military",
       title: "MILITARY SPECIAL",
       description: "Attention Tucson military! Carlson Gracie Academy honors your courage. As a thank you for your service, we proudly launch our Military Special. Come train jiu jitsu, improve your self defense, and strengthen your mind. We have exclusive plans for active duty heroes and veterans. Come be part of our team. Show all your strength. Secure this incredible offer today!",
-      image: "https://carlsongracietucson.com/wp-content/uploads/2026/03/Promocao-militares_.webp",
+      image: "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2026/03/Promocao-militares_.webp",
       buttonText: "Schedule Today",
     },
     {
       id: "free-trial",
       title: "FREE Trial Class",
       description: "Still not sure that BJJ is for you? Don't just take our word for it, experience Carlson Gracie Tucson for yourself. Sign up today and enjoy a free first class! Step on the mat, meet our welcoming instructors, and discover how martial arts can transform your life. No prior experience is needed to begin. Secure your spot right now!",
-      image: "https://carlsongracietucson.com/wp-content/uploads/2026/03/free_trial_class.webp",
+      image: "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2026/03/free_trial_class.webp",
       buttonText: "Register Here",
     },
     {
       id: "first-month",
       title: "First Month FREE!",
       description: "We will pay for your 1st month of Jiu jitsu classes with your upfront purchase of a uniform (Gi and Rash Guard) and a 2 month membership commitment after the free month. Also, we will cover the registration fee as an extra incentive. So, basically you get a month FREE and NO registration fee here at Carlson Gracie Tucson.",
-      image: "https://carlsongracietucson.com/wp-content/uploads/2025/05/Frame-1321314761.png",
+      image: "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Frame-1321314761.png",
       buttonText: "Register Here",
     }
   ];

@@ -8,7 +8,7 @@ export function ExecutiveClass() {
       <section className="relative h-[60vh] flex items-center justify-center overflow-hidden mb-16">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://carlsongracietucson.com/wp-content/uploads/2025/05/WhatsApp-Image-2024-03-13-at-7.05.32-PM-1-1333x1000-1-1024x768.jpeg"
+            src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/WhatsApp-Image-2024-03-13-at-7.05.32-PM-1-1333x1000-1-1024x768.jpeg"
             alt="Executive Class"
             className="w-full h-full object-cover opacity-40"
           />
@@ -67,7 +67,7 @@ export function ExecutiveClass() {
           >
             <div className="relative rounded-2xl overflow-hidden border-l-4 border-red-600 shadow-[0_0_30px_rgba(220,38,38,0.15)]">
               <img 
-                src="https://carlsongracietucson.com/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-24-at-14.11.48-281x300.webp"
+                src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-24-at-14.11.48-281x300.webp"
                 alt="Executive Class Instructor"
                 className="w-full h-auto object-cover"
               />

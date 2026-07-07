@@ -41,7 +41,7 @@ export function Contact() {
             <div className="absolute top-0 w-full h-1 bg-red-600"></div>
             
             <img 
-              src="https://carlsongracietucson.com/wp-content/uploads/2025/05/marcio-cruz-logo-17-scaled.png" 
+              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/SnapInsta.to_467954322_18470802808018850_5966120767544216934_n.jpg" 
               alt="Marcio Cruz Logo" 
               className="h-24 w-auto object-contain mb-2 filter drop-shadow-[0_0_15px_rgba(255,255,255,0.1)]"
             />
@@ -90,7 +90,7 @@ export function Contact() {
             <div className="absolute top-0 w-full h-1 bg-zinc-600"></div>
 
             <img 
-              src="https://carlsongracietucson.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-155806.png" 
+              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/team_0143.jpg" 
               alt="Carlson Gracie North" 
               className="h-24 w-auto object-contain mb-2 rounded-lg opacity-90"
             />

@@ -24,7 +24,7 @@ export function Schedule() {
           className="bg-zinc-900 p-4 sm:p-8 rounded-2xl shadow-2xl border border-zinc-800 max-w-5xl mx-auto"
         >
           <img 
-            src="https://carlsongracietucson.com/wp-content/uploads/2026/06/carlson_gracie_schedule_1280x1600-1.png" 
+            src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2026/06/carlson_gracie_schedule_1280x1600-1.png" 
             alt="Carlson Gracie Tucson Schedule" 
             className="w-full h-auto rounded-lg"
           />

@@ -16,7 +16,7 @@ export function CompetitionJiuJitsu() {
             className="rounded-[3rem] overflow-hidden shadow-2xl w-full"
           >
             <img 
-              src="https://carlsongracietucson.com/wp-content/uploads/2025/05/IMG_1225.jpg" 
+              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/IMG_1225.jpg" 
               alt="Competition Jiu Jitsu" 
               className="w-full h-auto object-cover"
             />
@@ -70,7 +70,7 @@ export function CompetitionJiuJitsu() {
             className="order-1 lg:order-2 rounded-[3rem] overflow-hidden shadow-2xl w-full"
           >
             <img 
-              src="https://carlsongracietucson.com/wp-content/uploads/2025/05/IMG_0289.jpeg" 
+              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/IMG_0289.jpeg" 
               alt="Advanced Training" 
               loading="lazy"
               className="w-full h-auto object-cover"
@@ -88,7 +88,7 @@ export function CompetitionJiuJitsu() {
             className="rounded-[3rem] overflow-hidden shadow-2xl w-full"
           >
             <img 
-              src="https://carlsongracietucson.com/wp-content/uploads/2025/05/IMG_0731-1510x1000-1.jpg" 
+              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/IMG_0731-1510x1000-1.jpg" 
               alt="Competitions and Tournaments" 
               loading="lazy"
               className="w-full h-auto object-cover"
@@ -135,7 +135,7 @@ export function CompetitionJiuJitsu() {
             className="order-1 lg:order-2 rounded-[3rem] overflow-hidden shadow-2xl w-full"
           >
             <img 
-              src="https://carlsongracietucson.com/wp-content/uploads/2025/05/IMG_5667.jpeg" 
+              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/IMG_5667.jpeg" 
               alt="A One-of-a-Kind Team" 
               loading="lazy"
               className="w-full h-auto object-cover object-top"

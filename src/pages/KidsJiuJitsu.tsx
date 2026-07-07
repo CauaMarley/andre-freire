@@ -18,7 +18,7 @@ export function KidsJiuJitsu() {
             className="rounded-[3rem] overflow-hidden shadow-2xl w-full"
           >
             <img 
-              src="https://carlsongracietucson.com/wp-content/uploads/2025/05/team_0031-1500x1000-1.jpg" 
+              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-24-at-16.42.03-1536x1025.webp" 
               alt="Kids Jiu Jitsu Training" 
               className="w-full h-auto object-cover"
             />
@@ -85,7 +85,7 @@ export function KidsJiuJitsu() {
             className="order-1 lg:order-2 rounded-[3rem] overflow-hidden shadow-2xl w-full"
           >
             <img 
-              src="https://carlsongracietucson.com/wp-content/uploads/2025/05/team_0024-1500x1000-1.jpg" 
+              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/team_0143.jpg" 
               alt="Kids Jiu Jitsu Confidence" 
               loading="lazy"
               className="w-full h-auto object-cover"
@@ -104,13 +104,13 @@ export function KidsJiuJitsu() {
           >
             <div className="flex flex-col gap-4">
                <img 
-                 src="https://carlsongracietucson.com/wp-content/uploads/2025/05/team_0101.jpg" 
+                 src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/WhatsApp-Image-2024-03-13-at-7.05.32-PM-1-1333x1000-1-1024x768.jpeg" 
                  alt="Kids Jiu Jitsu Respect" 
                  loading="lazy"
                  className="w-full h-auto rounded-3xl"
                />
                <img 
-                 src="https://carlsongracietucson.com/wp-content/uploads/2025/05/team_0099-1500x1000-1.jpg" 
+                 src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-24-at-14.11.48.webp" 
                  alt="Kids Jiu Jitsu Discipline" 
                  loading="lazy"
                  className="w-full h-auto rounded-3xl"

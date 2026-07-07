@@ -25,7 +25,7 @@ export function StartJiuJitsuTucsonFitnessSelfDefense() {
           className="prose prose-lg prose-zinc max-w-none"
         >
           <img 
-            src="https://carlsongracietucson.com/wp-content/uploads/2025/05/SnapInsta.to_491268050_18005772002750365_346771231950353141_n_1080-1.jpg" 
+            src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-151829.png" 
             alt="Start Jiu Jitsu for Fitness and Defense" 
             className="w-full rounded-2xl shadow-xl mb-12 h-auto" 
           />
@@ -163,7 +163,7 @@ export function StartJiuJitsuTucsonFitnessSelfDefense() {
           </p>
 
           <img 
-            src="https://carlsongracietucson.com/wp-content/uploads/2025/05/WhatsApp-Image-2024-03-13-at-7.05.32-PM-1-1333x1000-1.jpeg" 
+            src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/team_0143.jpg" 
             alt="Consistent Training" 
             className="w-full rounded-2xl shadow-xl my-12" 
           />

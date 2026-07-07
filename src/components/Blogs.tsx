@@ -9,63 +9,63 @@ export const blogs = [
     title: "Self-Defense Classes in Tucson: Master BJJ",
     desc: "Join the best self-defense classes in Tucson. Master BJJ at Carlson Gracie for safety and confidence. Start your journey now!",
     url: "/self-defense-classes-tucson-jiu-jitsu",
-    image: "https://carlsongracietucson.com/wp-content/uploads/2025/06/snapins-ai_3583484406528291350.jpg",
+    image: "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/06/snapins-ai_3583484406528291350.jpg",
     date: "April 6, 2026"
   },
   {
     title: "BJJ for All Ages: Carlson Gracie Tucson Training",
     desc: "Empower your family at Carlson Gracie Tucson. Elite Jiu-Jitsu for adults and kids focusing on fitness and self-defense.",
     url: "/bjj-adults-kids-tucson-fitness-defense",
-    image: "https://carlsongracietucson.com/wp-content/uploads/2025/05/WhatsApp-Image-2025-05-23-at-22.00.55-6-1.jpeg",
+    image: "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/WhatsApp-Image-2025-05-23-at-22.00.55-6-1.jpeg",
     date: "April 1, 2026"
   },
   {
     title: "BJJ Classes for All Ages at Carlson Gracie Tucson",
     desc: "Discover Jiu-Jitsu for all ages and fitness levels at Carlson Gracie Tucson. Start your journey today!",
     url: "/jiu-jitsu-classes-all-ages-fitness-tucson",
-    image: "https://carlsongracietucson.com/wp-content/uploads/2025/06/snapins-ai_3583484406528291350-768x448.jpg",
+    image: "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/06/snapins-ai_3583484406528291350-768x448.jpg",
     date: "March 30, 2026"
   },
   {
     title: "Best Jiu Jitsu for Fitness and Defense",
     desc: "Join Carlson Gracie Tucson for elite BJJ training. Boost your fitness and master real self-defense in the best local academy today.",
     url: "/best-jiu-jitsu-tucson-fitness-self-defense",
-    image: "https://carlsongracietucson.com/wp-content/uploads/2025/05/WhatsApp-Image-2025-05-23-at-22.00.55-6-1.jpeg",
+    image: "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/WhatsApp-Image-2025-05-23-at-22.00.55-6-1.jpeg",
     date: "March 26, 2026"
   },
   {
     title: "Learn BJJ at Carlson Gracie Tucson: All Skill Levels",
     desc: "Discover Brazilian Jiu-Jitsu at Carlson Gracie Tucson. We offer world-class training for beginners and experts. Join us today!",
     url: "/learn-brazilian-jiu-jitsu-tucson-all-levels",
-    image: "https://carlsongracietucson.com/wp-content/uploads/2025/05/WhatsApp-Image-2024-03-13-at-7.05.32-PM-1-1333x1000-1.jpeg",
+    image: "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/WhatsApp-Image-2024-03-13-at-7.05.32-PM-1-1333x1000-1.jpeg",
     date: "March 24, 2026"
   },
   {
     title: "Self-Defense and Fitness Training",
     desc: "Transform your life at Carlson Gracie Tucson. Learn real self-defense and get fit with elite Jiu-Jitsu. Join us today.",
     url: "/carlson-gracie-tucson-self-defense-fitness",
-    image: "https://carlsongracietucson.com/wp-content/uploads/2025/06/snapins-ai_3583484406528291350-1024x597.jpg",
+    image: "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/06/snapins-ai_3583484406528291350-1024x597.jpg",
     date: "March 20, 2026"
   },
   {
     title: "Self-Defense in Tucson: Carlson Gracie Jiu Jitsu",
     desc: "Looking for Self-Defense Training in Tucson? Join Carlson Gracie Tucson for Jiu-Jitsu. Master practical skills for real-world encounters.",
     url: "/self-defense-tucson-jiu-jitsu",
-    image: "https://carlsongracietucson.com/wp-content/uploads/2025/05/Frame-1321314753.png",
+    image: "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Frame-1321314753.png",
     date: "March 18, 2026"
   },
   {
     title: "Start Your Jiu-Jitsu Journey Today for Fitness and Self-Defense",
     desc: "Discover the ultimate fitness experience and master practical self-defense skills at Carlson Gracie Tucson.",
     url: "/start-jiu-jitsu-tucson-fitness-self-defense",
-    image: "https://carlsongracietucson.com/wp-content/uploads/2025/05/SnapInsta.to_491268050_18005772002750365_346771231950353141_n_1080-1.jpg",
+    image: "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/SnapInsta.to_491268050_18005772002750365_346771231950353141_n_1080-1.jpg",
     date: "March 12, 2026"
   },
   {
     title: "How to Start Jiu Jitsu in Tucson: A Complete Beginner Guide",
     desc: "Overcome your fears and start your martial arts journey today. A complete guide for beginners to start BJJ safely and confidently.",
     url: "/how-to-start-jiu-jitsu-in-tucson-a-complete-beginner-guide",
-    image: "https://carlsongracietucson.com/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-24-at-14.11.48.webp",
+    image: "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-24-at-14.11.48.webp",
     date: "February 10, 2026"
   }
 ];

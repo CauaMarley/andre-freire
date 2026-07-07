@@ -40,7 +40,7 @@ export function Andre() {
             className="rounded-[3rem] overflow-hidden shadow-2xl w-full"
           >
             <img 
-              src="https://carlsongracietucson.com/wp-content/uploads/2025/05/SnapInsta.to_467954322_18470802808018850_5966120767544216934_n.jpg" 
+              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/SnapInsta.to_467954322_18470802808018850_5966120767544216934_n.jpg" 
               alt="Professor André Freire" 
               className="w-full h-auto object-contain object-center"
             />
@@ -57,7 +57,7 @@ export function Andre() {
             className="rounded-[3rem] overflow-hidden shadow-2xl w-full order-2 lg:order-1"
           >
             <img 
-              src="https://carlsongracietucson.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-28-132634.png" 
+              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-28-132634.png" 
               alt="Professor André Freire Medals" 
               loading="lazy"
               className="w-full h-auto object-cover object-center"
@@ -104,7 +104,7 @@ export function Andre() {
             className="rounded-[3rem] overflow-hidden shadow-2xl w-full"
           >
             <img 
-              src="https://carlsongracietucson.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-28-134101.png" 
+              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-28-134101.png" 
               alt="Professor André Freire Champion" 
               loading="lazy"
               className="w-full h-auto object-cover object-center"
@@ -122,7 +122,7 @@ export function Andre() {
             className="rounded-[3rem] overflow-hidden shadow-2xl w-full order-2 lg:order-1"
           >
             <img 
-              src="https://carlsongracietucson.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-28-134503.png" 
+              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-28-134503.png" 
               alt="Professor André Freire Kids Class" 
               loading="lazy"
               className="w-full h-auto object-cover object-center"

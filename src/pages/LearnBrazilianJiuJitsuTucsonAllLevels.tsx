@@ -25,7 +25,7 @@ export function LearnBrazilianJiuJitsuTucsonAllLevels() {
           className="prose prose-lg prose-zinc max-w-none"
         >
           <img 
-            src="https://carlsongracietucson.com/wp-content/uploads/2025/05/WhatsApp-Image-2024-03-13-at-7.05.32-PM-1-1333x1000-1.jpeg" 
+            src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/WhatsApp-Image-2024-03-13-at-7.05.32-PM-1-1333x1000-1.jpeg" 
             alt="Learn BJJ Tucson" 
             className="w-full rounded-2xl shadow-xl mb-12 h-auto" 
           />
@@ -71,7 +71,7 @@ export function LearnBrazilianJiuJitsuTucsonAllLevels() {
           </p>
 
           <img 
-            src="https://carlsongracietucson.com/wp-content/uploads/2025/05/SnapInsta.to_461792123_593041016497383_1239949289327373198_n.jpg" 
+            src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/SnapInsta.to_461792123_593041016497383_1239949289327373198_n.jpg" 
             alt="BJJ Foundation" 
             className="w-full rounded-2xl shadow-xl my-12" 
           />

@@ -28,7 +28,7 @@ export function Schedule() {
           className="w-full flex justify-center"
         >
           <img 
-            src="https://carlsongracietucson.com/wp-content/uploads/2026/01/SCHEDULE-carlson-gracie-tucson.webp"
+            src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2026/01/SCHEDULE-carlson-gracie-tucson.webp"
             alt="Carlson Gracie Tucson Schedule"
             loading="lazy"
             className="w-full max-w-5xl rounded-2xl shadow-2xl object-contain"

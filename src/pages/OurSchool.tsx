@@ -52,7 +52,7 @@ export function OurSchool() {
             className="relative aspect-[4/3] rounded-xl overflow-hidden border-2 border-zinc-800 shadow-[0_0_30px_rgba(220,38,38,0.15)]"
           >
             <img 
-              src="https://carlsongracietucson.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-27-160021.png" 
+              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-151727.png" 
               alt="Carlson Gracie Tucson Academy" 
               className="w-full h-full object-cover"
             />
@@ -76,9 +76,9 @@ export function OurSchool() {
           </motion.div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              "https://carlsongracietucson.com/wp-content/uploads/2025/05/Frame-1321314761.png",
-              "https://carlsongracietucson.com/wp-content/uploads/2025/05/Frame-1321314762.png",
-              "https://carlsongracietucson.com/wp-content/uploads/2025/05/Frame-1321314760-1.png"
+              "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-24-at-14.11.48.webp",
+              "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/WhatsApp-Image-2024-03-13-at-7.05.32-PM-1-1333x1000-1-1024x768.jpeg",
+              "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/team_0143.jpg"
             ].map((src, idx) => (
               <motion.div
                 key={idx}

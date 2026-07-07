@@ -41,7 +41,7 @@ export function NathanWright() {
             className="rounded-[3rem] overflow-hidden shadow-2xl w-full"
           >
             <img 
-              src="https://carlsongracietucson.com/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-24-at-16.42.03.webp" 
+              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-24-at-16.42.03.webp" 
               alt="Nathan Wright" 
               className="w-full h-auto object-contain object-center"
             />
@@ -58,7 +58,7 @@ export function NathanWright() {
             className="rounded-3xl overflow-hidden shadow-xl"
           >
             <img 
-              src="https://carlsongracietucson.com/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-21-at-17.33.38_81e3ff1d.webp" 
+              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-21-at-17.33.38_81e3ff1d.webp" 
               alt="Nathan Wright Coaching" 
               className="w-full h-auto object-cover"
               loading="lazy"
@@ -72,7 +72,7 @@ export function NathanWright() {
             className="rounded-3xl overflow-hidden shadow-xl"
           >
             <img 
-              src="https://carlsongracietucson.com/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-21-at-17.33.40_97e0703c.webp" 
+              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-21-at-17.33.40_97e0703c.webp" 
               alt="Nathan Wright Jiu Jitsu" 
               className="w-full h-auto object-cover"
               loading="lazy"

@@ -25,7 +25,7 @@ export function BjjAdultsKidsTucsonFitnessDefense() {
           className="prose prose-lg prose-zinc max-w-none"
         >
           <img 
-            src="https://carlsongracietucson.com/wp-content/uploads/2025/05/WhatsApp-Image-2025-05-23-at-22.00.55-6-1.jpeg" 
+            src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-24-at-16.42.03-1536x1025.webp" 
             alt="Adults and Kids BJJ Training" 
             className="w-full rounded-2xl shadow-xl mb-12 h-auto" 
           />
@@ -96,7 +96,7 @@ export function BjjAdultsKidsTucsonFitnessDefense() {
           </p>
 
           <img 
-            src="https://carlsongracietucson.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-28-155704.png" 
+            src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-151829.png" 
             alt="Family Jiu Jitsu Training" 
             className="w-full rounded-2xl shadow-xl my-12" 
           />

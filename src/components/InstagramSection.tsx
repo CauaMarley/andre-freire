@@ -17,7 +17,7 @@ export function InstagramSection() {
           >
             <div className="rounded-2xl overflow-hidden shadow-2xl relative aspect-square">
               <img 
-                src="https://carlsongracietucson.com/wp-content/uploads/2025/05/marcio-cruz-logo-17-scaled-1-1536x1536.jpg" 
+                src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/marcio-cruz-logo-17-scaled-1-1536x1536.jpg" 
                 alt="Marcio Cruz Logo" 
                 loading="lazy"
                 className="w-full h-full object-cover"

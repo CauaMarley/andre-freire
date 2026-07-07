@@ -4,14 +4,14 @@ import Autoplay from 'embla-carousel-autoplay';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const images = [
-  "https://carlsongracietucson.com/wp-content/uploads/2025/05/WhatsApp-Image-2025-05-23-at-22.00.55-6-1.jpeg",
-  "https://carlsongracietucson.com/wp-content/uploads/2025/05/WhatsApp-Image-2024-03-13-at-7.05.32-PM-1-1333x1000-1.jpeg",
-  "https://carlsongracietucson.com/wp-content/uploads/2025/05/SnapInsta.to_461792123_593041016497383_1239949289327373198_n.jpg",
-  "https://carlsongracietucson.com/wp-content/uploads/2025/05/SnapInsta.to_469342930_17988889769750365_2181443428994732930_n.jpg",
-  "https://carlsongracietucson.com/wp-content/uploads/2025/05/SnapInsta.to_469428924_17988888659750365_7832726077651409428_n.jpg",
-  "https://carlsongracietucson.com/wp-content/uploads/2025/05/SnapInsta.to_469323650_17988888605750365_1987882665554527355_n.jpg",
-  "https://carlsongracietucson.com/wp-content/uploads/2025/05/SnapInsta.to_461808797_521545800608868_572171878860095246_n.jpg",
-  "https://carlsongracietucson.com/wp-content/uploads/2025/05/SnapInsta.to_469352919_17988888560750365_2184054165065967926_n.jpg"
+  "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/WhatsApp-Image-2025-05-23-at-22.00.55-6-1.jpeg",
+  "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/WhatsApp-Image-2024-03-13-at-7.05.32-PM-1-1333x1000-1.jpeg",
+  "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/SnapInsta.to_461792123_593041016497383_1239949289327373198_n.jpg",
+  "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/SnapInsta.to_469342930_17988889769750365_2181443428994732930_n.jpg",
+  "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/SnapInsta.to_469428924_17988888659750365_7832726077651409428_n.jpg",
+  "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/SnapInsta.to_469323650_17988888605750365_1987882665554527355_n.jpg",
+  "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/SnapInsta.to_461808797_521545800608868_572171878860095246_n.jpg",
+  "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/SnapInsta.to_469352919_17988888560750365_2184054165065967926_n.jpg"
 ];
 
 export function ImageCarousel() {
