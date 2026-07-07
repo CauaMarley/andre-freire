@@ -43,7 +43,7 @@ export function NathanWright() {
             <img 
               src="https://carlsongracietucson.com/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-24-at-16.42.03.webp" 
               alt="Nathan Wright" 
-              className="w-full h-auto object-cover object-top"
+              className="w-full h-auto object-contain object-center"
             />
           </motion.div>
         </div>

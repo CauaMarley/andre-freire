@@ -40,7 +40,7 @@ export function EmeryFesler() {
             <img 
               src="https://i.imgur.com/FsdATKv.png" 
               alt="Emery Fesler" 
-              className="w-full h-auto object-cover object-top"
+              className="w-full h-auto object-contain object-center"
             />
           </motion.div>
         </div>

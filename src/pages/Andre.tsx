@@ -42,7 +42,7 @@ export function Andre() {
             <img 
               src="https://carlsongracietucson.com/wp-content/uploads/2025/05/SnapInsta.to_467954322_18470802808018850_5966120767544216934_n.jpg" 
               alt="Professor André Freire" 
-              className="w-full h-auto object-cover object-top"
+              className="w-full h-auto object-contain object-center"
             />
           </motion.div>
         </div>

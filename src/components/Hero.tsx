@@ -22,7 +22,7 @@ export function Hero() {
       >
         <div className="absolute inset-0 bg-black/60 z-10" />
         <img 
-          src="https://carlsongracietucson.com/wp-content/uploads/2025/06/snapins-ai_3583484406528291350.jpg" 
+          src="https://i.imgur.com/f7M6u4Q.jpeg" 
           alt="Carlson Gracie Team" 
           fetchPriority="high"
           className="w-full h-full object-cover object-[center_top] md:object-center brightness-110 contrast-125 saturate-105"
