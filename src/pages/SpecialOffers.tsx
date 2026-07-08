@@ -27,7 +27,7 @@ export function SpecialOffers() {
     {
       id: "first-month",
       title: "First Month FREE!",
-      description: "We will pay for your 1st month of Jiu jitsu classes with your upfront purchase of a uniform (Gi and Rash Guard) and a 2 month membership commitment after the free month. Also, we will cover the registration fee as an extra incentive. So, basically you get a month FREE and NO registration fee here at Carlson Gracie Tucson.",
+      description: "Sign up today and earn a free Gi! We will pay for your 1st month of Jiu jitsu classes with a 2 month membership commitment after the free month. Also, we will cover the registration fee as an extra incentive. So, basically you get a month FREE, a FREE Gi, and NO registration fee here at Carlson Gracie Tucson.",
       image: "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Frame-1321314761.png",
       buttonText: "Register Here",
     }
