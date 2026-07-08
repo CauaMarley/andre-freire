@@ -25,7 +25,7 @@ export function BestJiuJitsuTucsonFitnessSelfDefense() {
           className="prose prose-lg prose-zinc max-w-none"
         >
           <img 
-            src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-24-at-16.42.03-1536x1025.webp" 
+            src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-151512.png" 
             alt="Best Jiu Jitsu Tucson" 
             className="w-full rounded-2xl shadow-xl mb-12 h-auto" 
           />
@@ -74,7 +74,7 @@ export function BestJiuJitsuTucsonFitnessSelfDefense() {
           </p>
 
           <img 
-            src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-24-at-14.11.48.webp" 
+            src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-151641.png" 
             alt="Practical Self Defense" 
             className="w-full rounded-2xl shadow-xl my-12" 
           />

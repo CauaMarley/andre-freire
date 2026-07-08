@@ -25,7 +25,7 @@ export function HowToStartJiuJitsuInTucson() {
           className="prose prose-lg prose-zinc max-w-none"
         >
           <img 
-            src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-151727.png" 
+            src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-151512.png" 
             alt="Start Jiu Jitsu Tucson Beginner" 
             className="w-full rounded-2xl shadow-xl mb-12 h-auto" 
           />
@@ -92,7 +92,7 @@ export function HowToStartJiuJitsuInTucson() {
           </p>
 
           <img 
-            src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/SnapInsta.to_467954322_18470802808018850_5966120767544216934_n.jpg" 
+            src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-151641.png" 
             alt="Overcoming Fears in BJJ" 
             className="w-full rounded-2xl shadow-xl my-12" 
           />

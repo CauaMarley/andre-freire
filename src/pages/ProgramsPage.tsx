@@ -6,35 +6,35 @@ const programsData = [
     id: "adults",
     title: "Adult & Teens Jiu-Jitsu",
     description: "Brazilian Jiu-Jitsu (BJJ) has gained a lot of attention in recent years, and it's pretty obvious why. Improve fitness, learn self-defense, and relieve stress.",
-    image: "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-151829.png",
+    image: "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-151512.png",
     url: "/adult-e-teens-jiu-jitsu"
   },
   {
     id: "kids",
     title: "Kids Jiu-Jitsu",
     description: "Brazilian Jiu-Jitsu (BJJ) isn't just for adults. In fact, it's the perfect activity for kids! Build discipline, respect, and confidence.",
-    image: "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-151727.png",
+    image: "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-151641.png",
     url: "/kids-jiu-jitsu"
   },
   {
     id: "competition",
     title: "Competition Jiu-Jitsu",
     description: "Are you ready to take your skills to the next level? For those looking to test their skills in tournaments with advanced techniques.",
-    image: "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/WhatsApp-Image-2024-03-13-at-7.05.32-PM-1-1333x1000-1-1024x768.jpeg",
+    image: "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-151829.png",
     url: "/competition-jiu-jitsu"
   },
   {
     id: "womens",
     title: "Women's Only",
     description: "At Carlson Gracie Tucson, the spirit of jiu-jitsu thrives within a unique enclave – the Women's Jiu-Jitsu Class. Learn practical self-defense in a safe environment.",
-    image: "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/team_0143.jpg",
+    image: "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-151727.png",
     url: "/womens-only"
   },
   {
     id: "executive",
     title: "Executive Class",
     description: "Our 40+ Jiu-Jitsu Program is specifically designed for adults who want to stay active, build confidence, and improve their overall health in a safe environment.",
-    image: "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/SnapInsta.to_467954322_18470802808018850_5966120767544216934_n.jpg",
+    image: "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/WhatsApp-Image-2024-03-13-at-7.05.32-PM-1-1333x1000-1-1024x768.jpeg",
     url: "/executiveclass"
   }
 ];
@@ -73,7 +73,7 @@ export function Programs() {
           >
             <div className="absolute inset-0 bg-black/20 z-10" />
             <img 
-              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/WhatsApp-Image-2024-03-13-at-7.05.32-PM-1-1333x1000-1-1024x768.jpeg" 
+              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/IMG_1225.jpg" 
               alt="Carlson Gracie Tucson Programs" 
               className="w-full h-auto"
             />

@@ -18,7 +18,7 @@ export function AdultsTeensJiuJitsu() {
             className="rounded-[3rem] overflow-hidden shadow-2xl w-full"
           >
             <img 
-              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-24-at-14.11.48.webp" 
+              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-151641.png" 
               alt="Adult & Teens Jiu Jitsu" 
               className="w-full h-auto object-cover"
             />
@@ -83,7 +83,7 @@ export function AdultsTeensJiuJitsu() {
             className="order-1 lg:order-2 rounded-[3rem] overflow-hidden shadow-2xl w-full"
           >
             <img 
-              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-151727.png" 
+              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/WhatsApp-Image-2024-03-13-at-7.05.32-PM-1-1333x1000-1-1024x768.jpeg" 
               alt="No Gi Jiu Jitsu" 
               loading="lazy"
               className="w-full h-auto object-cover"
@@ -101,7 +101,7 @@ export function AdultsTeensJiuJitsu() {
             className="rounded-[3rem] overflow-hidden shadow-2xl w-full"
           >
             <img 
-              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/team_0143.jpg" 
+              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/IMG_1225.jpg" 
               alt="Self Defense" 
               loading="lazy"
               className="w-full h-auto object-cover"
@@ -142,7 +142,7 @@ export function AdultsTeensJiuJitsu() {
             className="order-1 lg:order-2 rounded-[3rem] overflow-hidden shadow-2xl w-full"
           >
             <img 
-              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/WhatsApp-Image-2024-03-13-at-7.05.32-PM-1-1333x1000-1-1024x768.jpeg" 
+              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/team_0143.jpg" 
               alt="Grappling" 
               loading="lazy"
               className="w-full h-auto object-cover"
@@ -160,7 +160,7 @@ export function AdultsTeensJiuJitsu() {
             className="rounded-[3rem] overflow-hidden shadow-2xl w-full sticky top-24"
           >
             <img 
-              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/team_0143.jpg" 
+              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Frame-1321314747.png" 
               alt="Fitness and Community" 
               loading="lazy"
               className="w-full h-auto object-cover"

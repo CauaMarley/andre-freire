@@ -25,7 +25,7 @@ export function StartJiuJitsuTucsonFitnessSelfDefense() {
           className="prose prose-lg prose-zinc max-w-none"
         >
           <img 
-            src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-151829.png" 
+            src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-151512.png" 
             alt="Start Jiu Jitsu for Fitness and Defense" 
             className="w-full rounded-2xl shadow-xl mb-12 h-auto" 
           />
@@ -163,7 +163,7 @@ export function StartJiuJitsuTucsonFitnessSelfDefense() {
           </p>
 
           <img 
-            src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/team_0143.jpg" 
+            src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-151641.png" 
             alt="Consistent Training" 
             className="w-full rounded-2xl shadow-xl my-12" 
           />

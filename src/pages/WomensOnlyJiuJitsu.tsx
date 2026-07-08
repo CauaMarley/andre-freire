@@ -16,7 +16,7 @@ export function WomensOnlyJiuJitsu() {
             className="rounded-[3rem] overflow-hidden shadow-2xl w-full"
           >
             <img 
-              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/WhatsApp-Image-2024-03-13-at-7.05.32-PM-1-1333x1000-1-1024x768.jpeg" 
+              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-151727.png" 
               alt="Women's Only Jiu Jitsu" 
               className="w-full h-auto object-cover"
             />
@@ -70,7 +70,7 @@ export function WomensOnlyJiuJitsu() {
             className="order-1 lg:order-2 rounded-[3rem] overflow-hidden shadow-2xl w-full"
           >
             <img 
-              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/team_0143.jpg" 
+              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2026/03/promocao-mulheres_.webp" 
               alt="Overview" 
               loading="lazy"
               className="w-full h-auto object-cover"
@@ -88,7 +88,7 @@ export function WomensOnlyJiuJitsu() {
             className="rounded-[3rem] overflow-hidden shadow-2xl w-full sticky top-24"
           >
             <img 
-              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-151829.png" 
+              src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/team_0143.jpg" 
               alt="Women's Community" 
               loading="lazy"
               className="w-full h-auto object-cover"

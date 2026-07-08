@@ -25,7 +25,7 @@ export function CarlsonGracieTucsonSelfDefenseFitness() {
           className="prose prose-lg prose-zinc max-w-none"
         >
           <img 
-            src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/WhatsApp-Image-2024-03-13-at-7.05.32-PM-1-1333x1000-1-1024x768.jpeg" 
+            src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Frame-1321314753.png" 
             alt="Self Defense and Fitness" 
             className="w-full rounded-2xl shadow-xl mb-12 h-auto" 
           />
@@ -76,7 +76,7 @@ export function CarlsonGracieTucsonSelfDefenseFitness() {
           </p>
 
           <img 
-            src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/SnapInsta.to_467954322_18470802808018850_5966120767544216934_n.jpg" 
+            src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-151641.png" 
             alt="Practical Self Defense" 
             className="w-full rounded-2xl shadow-xl my-12" 
           />

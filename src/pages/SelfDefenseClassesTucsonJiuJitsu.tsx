@@ -25,7 +25,7 @@ export function SelfDefenseClassesTucsonJiuJitsu() {
           className="prose prose-lg prose-zinc max-w-none"
         >
           <img 
-            src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-151727.png" 
+            src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Frame-1321314753.png" 
             alt="Self Defense Tucson" 
             className="w-full rounded-2xl shadow-xl mb-12 h-auto" 
           />
@@ -53,7 +53,7 @@ export function SelfDefenseClassesTucsonJiuJitsu() {
           </p>
 
           <img 
-            src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-151727.png" 
+            src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Captura-de-tela-2025-05-26-151641.png" 
             alt="Jiu Jitsu Training" 
             className="w-full rounded-2xl shadow-xl my-12" 
           />
