@@ -28,7 +28,7 @@ export function Schedule() {
           className="w-full flex flex-col items-center"
         >
           <img 
-            src="https://i.imgur.com/yQUSyghh.jpg"
+            src="https://i.imgur.com/cLSYFMuh.jpg"
             alt="Carlson Gracie Tucson Schedule"
             loading="lazy"
             className="w-full max-w-5xl rounded-2xl shadow-2xl object-contain"

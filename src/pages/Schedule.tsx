@@ -24,7 +24,7 @@ export function Schedule() {
           className="bg-zinc-900 p-4 sm:p-8 rounded-2xl shadow-2xl border border-zinc-800 max-w-5xl mx-auto text-center"
         >
           <img 
-            src="https://i.imgur.com/yQUSyghh.jpg" 
+            src="https://i.imgur.com/cLSYFMuh.jpg" 
             alt="Carlson Gracie Tucson Schedule" 
             className="w-full h-auto rounded-lg"
           />
