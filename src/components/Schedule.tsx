@@ -25,10 +25,10 @@ export function Schedule() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="w-full flex justify-center"
+          className="w-full flex flex-col items-center"
         >
           <img 
-            src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2026/01/SCHEDULE-carlson-gracie-tucson.webp"
+            src="https://i.imgur.com/yQUSyghh.jpg"
             alt="Carlson Gracie Tucson Schedule"
             loading="lazy"
             className="w-full max-w-5xl rounded-2xl shadow-2xl object-contain"

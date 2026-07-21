@@ -21,10 +21,10 @@ export function Schedule() {
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.2 }}
-          className="bg-zinc-900 p-4 sm:p-8 rounded-2xl shadow-2xl border border-zinc-800 max-w-5xl mx-auto"
+          className="bg-zinc-900 p-4 sm:p-8 rounded-2xl shadow-2xl border border-zinc-800 max-w-5xl mx-auto text-center"
         >
           <img 
-            src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2026/06/carlson_gracie_schedule_1280x1600-1.png" 
+            src="https://i.imgur.com/yQUSyghh.jpg" 
             alt="Carlson Gracie Tucson Schedule" 
             className="w-full h-auto rounded-lg"
           />

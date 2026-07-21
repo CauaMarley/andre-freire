@@ -25,9 +25,9 @@ export function SpecialOffers() {
       buttonText: "Register Here",
     },
     {
-      id: "first-month",
-      title: "First Month FREE!",
-      description: "Sign up today and earn a free Gi! We will pay for your 1st month of Jiu jitsu classes with a 2 month membership commitment after the free month. Also, we will cover the registration fee as an extra incentive. So, basically you get a month FREE, a FREE Gi, and NO registration fee here at Carlson Gracie Tucson.",
+      id: "free-gi",
+      title: "Start your jiu jitsu journey today, and earn a free Gi.",
+      description: "Take the first step towards transforming your life with Brazilian Jiu-Jitsu. Sign up for a membership today and we'll provide you with a high-quality, complimentary Gi to kickstart your training. Our expert instructors at Carlson Gracie Tucson are ready to guide you on your martial arts journey, helping you build strength, confidence, and discipline on and off the mat.",
       image: "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/Frame-1321314761.png",
       buttonText: "Register Here",
     }
