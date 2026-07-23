@@ -37,7 +37,7 @@ export function Hero() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="mb-8"
         >
-           <img src="https://cgnorthtucson.com/wp-content/uploads/2026/05/logo-sem-fundo.png" alt="Carlson Gracie Logo" className="w-40 h-40 rounded-full mx-auto shadow-2xl shadow-red-600/20 bg-zinc-900 border-4 border-zinc-800 object-contain p-2" />
+           <img src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2026/05/logo-sem-fundo.png" alt="Carlson Gracie Logo" className="w-40 h-40 rounded-full mx-auto shadow-2xl shadow-red-600/20 bg-zinc-900 border-4 border-zinc-800 object-contain p-2" />
         </motion.div>
 
         <motion.div

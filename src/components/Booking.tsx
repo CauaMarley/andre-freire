@@ -69,7 +69,7 @@ export function Booking() {
             
             <div className="text-center mb-8">
               <div className="w-16 h-16 flex items-center justify-center p-1 mx-auto mb-4">
-                <img src="https://cgnorthtucson.com/wp-content/uploads/2026/05/logo-sem-fundo.png" alt="Carlson Gracie Logo" className="w-full h-full object-contain" />
+                <img src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2026/05/logo-sem-fundo.png" alt="Carlson Gracie Logo" className="w-full h-full object-contain" />
               </div>
               <h4 className="text-2xl font-heading font-bold text-white uppercase tracking-wider mb-2">Book Your Free Class</h4>
               <p className="text-zinc-500 text-sm">No experience needed. First class on us.</p>

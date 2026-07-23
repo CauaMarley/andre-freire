@@ -55,7 +55,7 @@ export function Navbar() {
             <div className="flex-shrink-0">
               <Link to="/" className="flex items-center gap-2 sm:gap-3">
                 <div className="w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center p-1">
-                  <img src="https://cgnorthtucson.com/wp-content/uploads/2026/05/logo-sem-fundo.png" alt="Carlson Gracie Logo" className="w-full h-full object-contain" />
+                  <img src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2026/05/logo-sem-fundo.png" alt="Carlson Gracie Logo" className="w-full h-full object-contain" />
                 </div>
                 <div className="flex flex-col">
                   <span className="font-heading font-bold text-base sm:text-xl tracking-wider uppercase text-white leading-tight">
