@@ -34,6 +34,7 @@ const InstructorsPage = lazy(() => import('./pages/InstructorsPage').then(module
 const ProgramsPage = lazy(() => import('./pages/ProgramsPage').then(module => ({ default: module.Programs })));
 const SpecialOffers = lazy(() => import('./pages/SpecialOffers').then(module => ({ default: module.SpecialOffers })));
 const BlogsPage = lazy(() => import('./pages/BlogsPage').then(module => ({ default: module.BlogsPage })));
+const ThankYou = lazy(() => import('./pages/ThankYou').then(module => ({ default: module.ThankYou })));
 const SelfDefenseClassesTucsonJiuJitsu = lazy(() => import('./pages/SelfDefenseClassesTucsonJiuJitsu').then(module => ({ default: module.SelfDefenseClassesTucsonJiuJitsu })));
 const BjjAdultsKidsTucsonFitnessDefense = lazy(() => import('./pages/BjjAdultsKidsTucsonFitnessDefense').then(module => ({ default: module.BjjAdultsKidsTucsonFitnessDefense })));
 const JiuJitsuClassesAllAgesFitnessTucson = lazy(() => import('./pages/JiuJitsuClassesAllAgesFitnessTucson').then(module => ({ default: module.JiuJitsuClassesAllAgesFitnessTucson })));
@@ -83,6 +84,7 @@ export default function App() {
             <Route path="/how-to-start-jiu-jitsu-in-tucson-a-complete-beginner-guide" element={<HowToStartJiuJitsuInTucson />} />
             <Route path="/terms-of-service" element={<TermsOfService />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/thankyou" element={<ThankYou />} />
           </Routes>
         </Suspense>
         <Footer />

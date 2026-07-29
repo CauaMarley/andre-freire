@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from "motion/react";
 import { CheckCircle2 } from "lucide-react";
 
 export function Booking() {
   const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
+  const navigate = useNavigate();
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -24,6 +26,7 @@ export function Booking() {
       if (response.ok) {
         setStatus("success");
         form.reset();
+        navigate('/thankyou');
       } else {
         setStatus("error");
       }
