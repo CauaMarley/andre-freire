@@ -7,7 +7,7 @@ const scheduleData = [
     day: "Monday",
     classes: [
       { time: "6:00 AM", name: "Adults & Teens", details: "All Levels (Gi)", tag: "" },
-      { time: "11:30 AM", name: "Teens & Adults", details: "All Levels", tag: "" },
+      { time: "11:30 AM", name: "Teens & Adults", details: "All Levels (Gi Class)", tag: "" },
       { time: "4:00 PM", name: "Baby Bulldogs", details: "3 - 4 Years Old (Gi)", tag: "" },
       { time: "4:30 PM", name: "Little Bulldogs", details: "4 - 7 Years Old (Gi)", tag: "" },
       { time: "5:30 PM", name: "Bulldogs", details: "8 - 13 Years Old (Gi)", tag: "" },
@@ -28,7 +28,7 @@ const scheduleData = [
     day: "Wednesday",
     classes: [
       { time: "6:00 AM", name: "Adults & Teens", details: "All Levels (Gi)", tag: "" },
-      { time: "11:30 AM", name: "Teens & Adults", details: "All Levels", tag: "" },
+      { time: "11:30 AM", name: "Teens & Adults", details: "All Levels (Gi Class)", tag: "" },
       { time: "4:00 PM", name: "Baby Bulldogs", details: "3 - 4 Years Old (Gi)", tag: "" },
       { time: "4:30 PM", name: "Little Bulldogs", details: "4 - 7 Years Old (No Gi)", tag: "" },
       { time: "5:30 PM", name: "Bulldogs", details: "8 - 13 Years Old (No Gi)", tag: "" },
@@ -50,7 +50,7 @@ const scheduleData = [
     day: "Friday",
     classes: [
       { time: "6:00 AM", name: "Adults & Teens", details: "All Levels (No Gi)", tag: "★ NEW" },
-      { time: "11:30 AM", name: "Teens & Adults", details: "All Levels", tag: "" },
+      { time: "11:30 AM", name: "Teens & Adults", details: "All Levels (Gi Class)", tag: "" },
       { time: "5:30 PM", name: "Executive Class", details: "40 Years Old Plus (Gi)", tag: "" },
       { time: "5:30 PM", name: "Adults & Teens", details: "All Levels (No Gi)", tag: "" },
       { time: "6:30 PM", name: "Carlson Gracie Team Open Mat", details: "Gi & No Gi", tag: "" },
