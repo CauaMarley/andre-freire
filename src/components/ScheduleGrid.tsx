@@ -60,7 +60,6 @@ const scheduleData = [
     day: "Saturday",
     classes: [
       { time: "10:00 AM", name: "Little Bulldogs & Bulldogs", details: "4 - 13 Years Old (Gi)", tag: "" },
-      { time: "10:00 AM", name: "Kids Sparring", details: "Advanced Kids Invitation Only\n30min Gi / 30min No Gi", tag: "" },
       { time: "11:00 AM", name: "Adults & Teens", details: "All Levels (Gi)", tag: "" },
       { time: "12:00 PM", name: "Sparring", details: "", tag: "" },
     ]
