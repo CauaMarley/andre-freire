@@ -46,9 +46,9 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
           className="max-w-4xl mx-auto"
         >
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-heading font-bold text-white uppercase tracking-tighter leading-none mb-6">
-            Book Your Free <br />
-            <span className="text-red-600 drop-shadow-[0_0_25px_rgba(220,38,38,0.4)]">Class Today!</span>
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-black text-white uppercase tracking-tighter leading-none mb-6">
+            Carlson Gracie Tucson <br />
+            <span className="text-red-600 drop-shadow-[0_0_25px_rgba(220,38,38,0.4)] text-3xl md:text-4xl lg:text-5xl block mt-4 tracking-wide font-bold">Brazilian Jiu-Jitsu & Martial Arts Academy</span>
           </h1>
           
           <motion.div 
