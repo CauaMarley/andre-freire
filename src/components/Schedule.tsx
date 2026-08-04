@@ -1,4 +1,5 @@
 import { motion } from "motion/react";
+import { ScheduleGrid } from "./ScheduleGrid";
 
 export function Schedule() {
   return (
@@ -27,12 +28,7 @@ export function Schedule() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="w-full flex flex-col items-center"
         >
-          <img 
-            src="https://i.imgur.com/cLSYFMuh.jpg"
-            alt="Carlson Gracie Tucson Schedule"
-            loading="lazy"
-            className="w-full max-w-5xl rounded-2xl shadow-2xl object-contain"
-          />
+          <ScheduleGrid />
         </motion.div>
       </div>
     </section>
