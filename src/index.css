@@ -10,17 +10,11 @@ body {
   @apply bg-zinc-950 text-zinc-100;
 }
 
+@page { size: A4 portrait; margin: 0; }
 @media print {
-  body, .bg-zinc-950 {
-    background-color: white !important;
-    color: black !important;
-  }
-  @page {
-    size: A4 landscape;
-    margin: 0.5cm;
-  }
+  html, body { height: 297mm !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important; background-color: white !important; color: black !important; }
+  .no-print { display: none !important; }
   
-  /* Hide all other sections in main to prevent 19 pages */
   main > :not(#schedule) {
     display: none !important;
   }
@@ -29,22 +23,28 @@ body {
     display: none !important;
   }
 
-  body, html {
-    margin: 0 !important;
-    padding: 0 !important;
+  #schedule-print-container {
+    width: 210mm !important;
+    height: 297mm !important;
+    max-height: 297mm !important;
+    padding: 12mm !important;
+    box-sizing: border-box !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    background: white !important;
+    color: black !important;
+    z-index: 9999 !important;
   }
 
-  .print\:block {
-    display: block !important;
-  }
   * {
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
   }
-  /* Remove top/bottom padding during print so it fits page better */
-  .pt-24, .pb-24, .pt-20, .pb-20, .py-24, .py-20 {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-  }
 }
-

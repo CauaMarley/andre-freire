@@ -89,9 +89,19 @@ export function ScheduleGrid() {
       </motion.div>
 
       {/* Print Button */}
-      <div className="w-full max-w-6xl flex justify-end mb-4 print:hidden">
+      <div className="w-full max-w-6xl flex justify-end mb-4 print:hidden no-print">
         <button 
-          onClick={() => window.print()}
+          onClick={() => {
+            // Apply explicit sizes to body to help html2canvas or printers calculate correctly
+            document.body.style.width = '210mm';
+            document.body.style.height = '297mm';
+            window.print();
+            // Reset after printing
+            setTimeout(() => {
+              document.body.style.width = '';
+              document.body.style.height = '';
+            }, 1000);
+          }}
           className="flex items-center gap-2 bg-zinc-900 hover:bg-zinc-800 text-white px-6 py-3 rounded-lg font-bold uppercase tracking-wider transition-colors border border-zinc-700"
         >
           <Printer className="w-5 h-5" />
@@ -100,44 +110,44 @@ export function ScheduleGrid() {
       </div>
 
       {/* Schedule Table Container */}
-      <div id="printable-schedule" className="w-full max-w-6xl bg-white text-black shadow-2xl overflow-hidden border border-zinc-200 print:w-screen print:max-w-none print:h-[95vh] print:flex print:flex-col print:shadow-none print:border-none print:m-0">
+      <div id="schedule-print-container" className="w-full max-w-6xl bg-white text-black shadow-2xl overflow-hidden border border-zinc-200">
         
         {/* Header (Logo + Title) */}
-        <div className="flex flex-col items-center pt-10 pb-8 px-4 print:pt-4 print:pb-4">
+        <div className="flex flex-col items-center pt-10 pb-8 px-4 print:pt-0 print:pb-2 break-inside-avoid" style={{ pageBreakInside: 'avoid' }}>
           <img 
             src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2026/05/logo-sem-fundo.png" 
             alt="Carlson Gracie Logo" 
-            className="w-32 h-32 object-contain mb-6 drop-shadow-xl print:w-24 print:h-24 print:mb-2"
+            className="w-32 h-32 object-contain mb-6 drop-shadow-xl print:w-20 print:h-20 print:mb-2"
           />
-          <h2 className="text-5xl md:text-6xl lg:text-7xl font-heading font-black tracking-tighter uppercase text-black text-center leading-none mb-3 print:text-5xl print:mb-1">
+          <h2 className="text-5xl md:text-6xl lg:text-7xl font-heading font-black tracking-tighter uppercase text-black text-center leading-none mb-3 print:text-4xl print:mb-1">
             Our Schedule
           </h2>
-          <h3 className="text-xl md:text-2xl tracking-[0.2em] font-bold uppercase mt-2 text-black text-center print:text-lg print:mt-0">
+          <h3 className="text-xl md:text-2xl tracking-[0.2em] font-bold uppercase mt-2 text-black text-center print:text-sm print:mt-0">
             Carlson Gracie Tucson
           </h3>
         </div>
 
         {/* Desktop Grid (Always shown on print, hidden on mobile screen) */}
-        <div className="hidden lg:grid print:grid grid-cols-6 border-t-[8px] border-black bg-black gap-[2px] p-[2px] print:border-t-4 print:flex-grow">
+        <div className="hidden lg:grid print:grid grid-cols-6 border-t-[8px] border-black bg-black gap-[2px] p-[2px] print:border-t-4 print:flex-grow print:h-full print:max-h-full">
           {scheduleData.map((dayData, index) => (
-            <div key={index} className="flex flex-col h-full bg-zinc-100">
+            <div key={index} className="flex flex-col h-full bg-zinc-100 break-inside-avoid" style={{ pageBreakInside: 'avoid' }}>
               {/* Column Header */}
-              <div className="bg-black text-white text-center py-4 print:py-2">
-                <span className="font-bold tracking-widest text-sm uppercase print:text-xs">{dayData.day}</span>
+              <div className="bg-black text-white text-center py-4 print:py-1">
+                <span className="font-bold tracking-widest text-sm uppercase print:text-[10px]">{dayData.day}</span>
               </div>
               
               {/* Classes */}
               <div className="flex flex-col divide-y-2 divide-zinc-100 flex-grow bg-zinc-100">
                 {dayData.classes.map((cls, idx) => (
-                  <div key={idx} className="p-4 bg-white flex-grow relative hover:bg-zinc-50 transition-colors print:p-3">
+                  <div key={idx} className="p-4 bg-white flex-grow relative hover:bg-zinc-50 transition-colors print:px-[6px] print:py-[4px] break-inside-avoid" style={{ pageBreakInside: 'avoid' }}>
                     {cls.tag && (
-                      <span className="bg-black text-white text-[10px] font-bold px-2 py-0.5 absolute top-0 left-0 tracking-wider print:text-[8px] print:px-1.5 print:py-0.5">
+                      <span className="bg-black text-white text-[10px] font-bold px-2 py-0.5 absolute top-0 right-0 tracking-wider print:text-[7px] print:px-1 print:py-0">
                         {cls.tag}
                       </span>
                     )}
-                    <div className="font-black text-[13px] mb-1 mt-1 tracking-tight print:text-xs">{cls.time}</div>
-                    <div className="font-bold text-[14px] leading-tight uppercase font-heading print:text-sm">{cls.name}</div>
-                    <div className="text-[11px] font-bold text-zinc-500 mt-1 uppercase leading-tight whitespace-pre-line print:text-[10px]">{cls.details}</div>
+                    <div className="font-black text-[13px] mb-1 mt-1 tracking-tight print:text-[10px] print:m-0">{cls.time}</div>
+                    <div className="font-bold text-[14px] leading-tight uppercase font-heading print:text-[12px]">{cls.name}</div>
+                    <div className="text-[11px] font-bold text-zinc-500 mt-1 uppercase leading-tight whitespace-pre-line print:text-[9px] print:mt-0">{cls.details}</div>
                   </div>
                 ))}
                 <div className="flex-grow bg-white min-h-[100px] print:min-h-0 print:hidden"></div> {/* empty space filler */}
@@ -174,14 +184,14 @@ export function ScheduleGrid() {
         </div>
 
         {/* Footer */}
-        <div className="bg-black text-white flex flex-col sm:flex-row justify-center items-center gap-6 py-8 px-4 mt-auto print:py-2 print:gap-4">
+        <div className="bg-black text-white flex flex-col sm:flex-row justify-center items-center gap-6 py-8 px-4 mt-auto print:py-2 print:gap-4 break-inside-avoid" style={{ pageBreakInside: 'avoid' }}>
           <a href="tel:5208495246" className="flex items-center gap-3 hover:text-red-500 transition-colors group">
-            <span className="border-2 border-white group-hover:border-red-500 rounded-full w-12 h-12 flex items-center justify-center font-bold text-[10px] uppercase tracking-widest transition-colors print:w-8 print:h-8 print:text-[8px] print:border">Tel</span>
-            <span className="text-2xl md:text-3xl font-black font-heading tracking-tight print:text-xl">520-849-5246</span>
+            <span className="border-2 border-white group-hover:border-red-500 rounded-full w-12 h-12 flex items-center justify-center font-bold text-[10px] uppercase tracking-widest transition-colors print:w-6 print:h-6 print:text-[6px] print:border">Tel</span>
+            <span className="text-2xl md:text-3xl font-black font-heading tracking-tight print:text-sm">520-849-5246</span>
           </a>
           <a href="https://www.carlsongracietucson.com" className="flex items-center gap-3 hover:text-red-500 transition-colors group">
-            <span className="border-2 border-white group-hover:border-red-500 rounded-full w-12 h-12 flex items-center justify-center font-bold text-[10px] uppercase tracking-widest transition-colors print:w-8 print:h-8 print:text-[8px] print:border">Web</span>
-            <span className="text-xl md:text-2xl font-black font-heading tracking-tight print:text-lg">CARLSONGRACIETUCSON.COM</span>
+            <span className="border-2 border-white group-hover:border-red-500 rounded-full w-12 h-12 flex items-center justify-center font-bold text-[10px] uppercase tracking-widest transition-colors print:w-6 print:h-6 print:text-[6px] print:border">Web</span>
+            <span className="text-xl md:text-2xl font-black font-heading tracking-tight print:text-sm">CARLSONGRACIETUCSON.COM</span>
           </a>
         </div>
         
