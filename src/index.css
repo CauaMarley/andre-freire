@@ -17,11 +17,23 @@ body {
   }
   @page {
     size: A4 landscape;
-    margin: 1cm;
+    margin: 0.5cm;
   }
+  
+  /* Hide all other sections in main to prevent 19 pages */
+  main > :not(#schedule) {
+    display: none !important;
+  }
+  
   nav, footer, .print\:hidden {
     display: none !important;
   }
+
+  body, html {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
   .print\:block {
     display: block !important;
   }

@@ -100,47 +100,47 @@ export function ScheduleGrid() {
       </div>
 
       {/* Schedule Table Container */}
-      <div className="w-full max-w-6xl bg-white text-black shadow-2xl overflow-hidden border border-zinc-200">
+      <div id="printable-schedule" className="w-full max-w-6xl bg-white text-black shadow-2xl overflow-hidden border border-zinc-200">
         
         {/* Header (Logo + Title) */}
-        <div className="flex flex-col items-center pt-10 pb-8 px-4">
+        <div className="flex flex-col items-center pt-10 pb-8 px-4 print:pt-4 print:pb-4">
           <img 
             src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2026/05/logo-sem-fundo.png" 
             alt="Carlson Gracie Logo" 
-            className="w-32 h-32 object-contain mb-6 drop-shadow-xl"
+            className="w-32 h-32 object-contain mb-6 drop-shadow-xl print:w-20 print:h-20 print:mb-2"
           />
-          <h2 className="text-5xl md:text-6xl lg:text-7xl font-heading font-black tracking-tighter uppercase text-black text-center leading-none mb-3">
+          <h2 className="text-5xl md:text-6xl lg:text-7xl font-heading font-black tracking-tighter uppercase text-black text-center leading-none mb-3 print:text-4xl print:mb-1">
             Our Schedule
           </h2>
-          <h3 className="text-xl md:text-2xl tracking-[0.2em] font-bold uppercase mt-2 text-black text-center">
+          <h3 className="text-xl md:text-2xl tracking-[0.2em] font-bold uppercase mt-2 text-black text-center print:text-base print:mt-0">
             Carlson Gracie Tucson
           </h3>
         </div>
 
         {/* Desktop Grid (Always shown on print, hidden on mobile screen) */}
-        <div className="hidden lg:grid print:grid grid-cols-6 border-t-[8px] border-black bg-black gap-[2px] p-[2px]">
+        <div className="hidden lg:grid print:grid grid-cols-6 border-t-[8px] border-black bg-black gap-[2px] p-[2px] print:border-t-4">
           {scheduleData.map((dayData, index) => (
             <div key={index} className="flex flex-col h-full bg-zinc-100">
               {/* Column Header */}
-              <div className="bg-black text-white text-center py-4">
-                <span className="font-bold tracking-widest text-sm uppercase">{dayData.day}</span>
+              <div className="bg-black text-white text-center py-4 print:py-1">
+                <span className="font-bold tracking-widest text-sm uppercase print:text-[10px]">{dayData.day}</span>
               </div>
               
               {/* Classes */}
               <div className="flex flex-col divide-y-2 divide-zinc-100 flex-grow bg-zinc-100">
                 {dayData.classes.map((cls, idx) => (
-                  <div key={idx} className="p-4 bg-white flex-grow relative hover:bg-zinc-50 transition-colors">
+                  <div key={idx} className="p-4 bg-white flex-grow relative hover:bg-zinc-50 transition-colors print:p-[4px]">
                     {cls.tag && (
-                      <span className="bg-black text-white text-[10px] font-bold px-2 py-0.5 absolute top-0 left-0 tracking-wider">
+                      <span className="bg-black text-white text-[10px] font-bold px-2 py-0.5 absolute top-0 left-0 tracking-wider print:text-[7px] print:px-1 print:py-0">
                         {cls.tag}
                       </span>
                     )}
-                    <div className="font-black text-[13px] mb-1 mt-1 tracking-tight">{cls.time}</div>
-                    <div className="font-bold text-[14px] leading-tight uppercase font-heading">{cls.name}</div>
-                    <div className="text-[11px] font-bold text-zinc-500 mt-1 uppercase leading-tight whitespace-pre-line">{cls.details}</div>
+                    <div className="font-black text-[13px] mb-1 mt-1 tracking-tight print:text-[10px] print:mb-0 print:mt-0">{cls.time}</div>
+                    <div className="font-bold text-[14px] leading-tight uppercase font-heading print:text-[11px] print:leading-none">{cls.name}</div>
+                    <div className="text-[11px] font-bold text-zinc-500 mt-1 uppercase leading-tight whitespace-pre-line print:text-[8px] print:mt-0 print:leading-tight">{cls.details}</div>
                   </div>
                 ))}
-                <div className="flex-grow bg-white min-h-[100px]"></div> {/* empty space filler */}
+                <div className="flex-grow bg-white min-h-[100px] print:min-h-0 print:hidden"></div> {/* empty space filler */}
               </div>
             </div>
           ))}
@@ -174,14 +174,14 @@ export function ScheduleGrid() {
         </div>
 
         {/* Footer */}
-        <div className="bg-black text-white flex flex-col sm:flex-row justify-center items-center gap-6 py-8 px-4 mt-auto">
+        <div className="bg-black text-white flex flex-col sm:flex-row justify-center items-center gap-6 py-8 px-4 mt-auto print:py-2 print:gap-4">
           <a href="tel:5208495246" className="flex items-center gap-3 hover:text-red-500 transition-colors group">
-            <span className="border-2 border-white group-hover:border-red-500 rounded-full w-12 h-12 flex items-center justify-center font-bold text-[10px] uppercase tracking-widest transition-colors">Tel</span>
-            <span className="text-2xl md:text-3xl font-black font-heading tracking-tight">520-849-5246</span>
+            <span className="border-2 border-white group-hover:border-red-500 rounded-full w-12 h-12 flex items-center justify-center font-bold text-[10px] uppercase tracking-widest transition-colors print:w-8 print:h-8 print:text-[8px] print:border">Tel</span>
+            <span className="text-2xl md:text-3xl font-black font-heading tracking-tight print:text-xl">520-849-5246</span>
           </a>
           <a href="https://www.carlsongracietucson.com" className="flex items-center gap-3 hover:text-red-500 transition-colors group">
-            <span className="border-2 border-white group-hover:border-red-500 rounded-full w-12 h-12 flex items-center justify-center font-bold text-[10px] uppercase tracking-widest transition-colors">Web</span>
-            <span className="text-xl md:text-2xl font-black font-heading tracking-tight">CARLSONGRACIETUCSON.COM</span>
+            <span className="border-2 border-white group-hover:border-red-500 rounded-full w-12 h-12 flex items-center justify-center font-bold text-[10px] uppercase tracking-widest transition-colors print:w-8 print:h-8 print:text-[8px] print:border">Web</span>
+            <span className="text-xl md:text-2xl font-black font-heading tracking-tight print:text-lg">CARLSONGRACIETUCSON.COM</span>
           </a>
         </div>
         
