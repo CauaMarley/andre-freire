@@ -10,3 +10,29 @@ body {
   @apply bg-zinc-950 text-zinc-100;
 }
 
+@media print {
+  body, .bg-zinc-950 {
+    background-color: white !important;
+    color: black !important;
+  }
+  @page {
+    size: A4 landscape;
+    margin: 1cm;
+  }
+  nav, footer, .print\:hidden {
+    display: none !important;
+  }
+  .print\:block {
+    display: block !important;
+  }
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  /* Remove top/bottom padding during print so it fits page better */
+  .pt-24, .pb-24, .pt-20, .pb-20, .py-24, .py-20 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}
+

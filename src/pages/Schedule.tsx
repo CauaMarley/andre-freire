@@ -8,7 +8,7 @@ export function Schedule() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-center mb-12"
+          className="text-center mb-12 print:hidden"
         >
           <h1 className="text-4xl md:text-6xl font-heading font-black text-white uppercase tracking-tighter mb-6">
             Class <span className="text-red-600">Schedule</span>

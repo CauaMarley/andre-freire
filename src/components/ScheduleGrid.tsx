@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { AlertCircle } from 'lucide-react';
+import { AlertCircle, Printer } from 'lucide-react';
 
 const scheduleData = [
   {
@@ -73,7 +73,7 @@ export function ScheduleGrid() {
       <motion.div 
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0 }}
-        className="w-full max-w-6xl bg-red-700 text-white rounded-lg p-6 mb-8 text-left shadow-xl border border-red-600"
+        className="w-full max-w-6xl bg-red-700 text-white rounded-lg p-6 mb-8 text-left shadow-xl border border-red-600 print:hidden"
       >
         <div className="flex flex-col sm:flex-row items-start gap-4">
           <AlertCircle className="w-8 h-8 shrink-0 mt-1 text-white" />
@@ -87,6 +87,17 @@ export function ScheduleGrid() {
           </div>
         </div>
       </motion.div>
+
+      {/* Print Button */}
+      <div className="w-full max-w-6xl flex justify-end mb-4 print:hidden">
+        <button 
+          onClick={() => window.print()}
+          className="flex items-center gap-2 bg-zinc-900 hover:bg-zinc-800 text-white px-6 py-3 rounded-lg font-bold uppercase tracking-wider transition-colors border border-zinc-700"
+        >
+          <Printer className="w-5 h-5" />
+          Print / Download
+        </button>
+      </div>
 
       {/* Schedule Table Container */}
       <div className="w-full max-w-6xl bg-white text-black shadow-2xl overflow-hidden border border-zinc-200">
@@ -106,8 +117,8 @@ export function ScheduleGrid() {
           </h3>
         </div>
 
-        {/* Desktop Grid (Hidden on Mobile) */}
-        <div className="hidden lg:grid grid-cols-6 border-t-[8px] border-black bg-black gap-[2px] p-[2px]">
+        {/* Desktop Grid (Always shown on print, hidden on mobile screen) */}
+        <div className="hidden lg:grid print:grid grid-cols-6 border-t-[8px] border-black bg-black gap-[2px] p-[2px]">
           {scheduleData.map((dayData, index) => (
             <div key={index} className="flex flex-col h-full bg-zinc-100">
               {/* Column Header */}
@@ -135,8 +146,8 @@ export function ScheduleGrid() {
           ))}
         </div>
 
-        {/* Mobile View (Hidden on Desktop) */}
-        <div className="lg:hidden flex flex-col border-t-8 border-black">
+        {/* Mobile View (Hidden on Desktop and Print) */}
+        <div className="lg:hidden print:hidden flex flex-col border-t-8 border-black">
           {scheduleData.map((dayData, index) => (
             <div key={index} className="bg-white">
               <div className="bg-black text-white text-center py-4 sticky top-0 z-10 border-b-2 border-zinc-800">

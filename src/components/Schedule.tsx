@@ -10,7 +10,7 @@ export function Schedule() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6 }}
-          className="text-center max-w-4xl mx-auto mb-16"
+          className="text-center max-w-4xl mx-auto mb-16 print:hidden"
         >
           <h2 className="text-4xl md:text-6xl font-heading font-black text-black uppercase tracking-tight mb-2">
             Schedule Your Free Class

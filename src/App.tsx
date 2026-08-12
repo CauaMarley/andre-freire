@@ -92,7 +92,7 @@ export default function App() {
         {/* Floating Try Class Button */}
         <Link 
           to="/contact" 
-          className="fixed bottom-6 right-6 z-50 bg-red-700 hover:bg-red-600 text-white px-6 py-4 rounded-full font-bold uppercase tracking-widest shadow-[0_0_20px_rgba(220,38,38,0.4)] transition-all hover:scale-105 active:scale-95 flex items-center justify-center gap-2 group"
+          className="fixed bottom-6 right-6 z-50 bg-red-700 hover:bg-red-600 text-white px-6 py-4 rounded-full font-bold uppercase tracking-widest shadow-[0_0_20px_rgba(220,38,38,0.4)] transition-all hover:scale-105 active:scale-95 flex items-center justify-center gap-2 group print:hidden"
         >
           <span className="hidden sm:inline">Try Free Class</span>
           <span className="sm:hidden">Try Class</span>
