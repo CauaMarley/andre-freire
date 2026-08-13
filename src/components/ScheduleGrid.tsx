@@ -128,32 +128,49 @@ export function ScheduleGrid() {
         </div>
 
         {/* Desktop Grid (Always shown on print, hidden on mobile screen) */}
-        <div className="hidden lg:grid print:grid grid-cols-6 border-t-[8px] border-black bg-black gap-[2px] p-[2px] print:border-t-4 print:flex-grow print:h-full print:max-h-full">
-          {scheduleData.map((dayData, index) => (
-            <div key={index} className="flex flex-col h-full bg-zinc-100 break-inside-avoid" style={{ pageBreakInside: 'avoid' }}>
-              {/* Column Header */}
-              <div className="bg-black text-white text-center py-4 print:py-1">
-                <span className="font-bold tracking-widest text-sm uppercase print:text-[10px]">{dayData.day}</span>
-              </div>
-              
-              {/* Classes */}
-              <div className="flex flex-col divide-y-2 divide-zinc-100 flex-grow bg-zinc-100">
-                {dayData.classes.map((cls, idx) => (
-                  <div key={idx} className="p-4 bg-white flex-grow relative hover:bg-zinc-50 transition-colors print:px-[6px] print:py-[4px] break-inside-avoid" style={{ pageBreakInside: 'avoid' }}>
-                    {cls.tag && (
-                      <span className="bg-black text-white text-[10px] font-bold px-2 py-0.5 absolute top-0 right-0 tracking-wider print:text-[7px] print:px-1 print:py-0">
-                        {cls.tag}
-                      </span>
-                    )}
-                    <div className="font-black text-[13px] mb-1 mt-1 tracking-tight print:text-[10px] print:m-0">{cls.time}</div>
-                    <div className="font-bold text-[14px] leading-tight uppercase font-heading print:text-[12px]">{cls.name}</div>
-                    <div className="text-[11px] font-bold text-zinc-500 mt-1 uppercase leading-tight whitespace-pre-line print:text-[9px] print:mt-0">{cls.details}</div>
-                  </div>
+        <div className="hidden lg:flex print:flex w-full border-[8px] border-black bg-zinc-100 p-[2px] print:border-[4px] print:flex-grow print:h-full print:max-h-full print:p-0">
+          <table className="w-full h-full table-fixed border-collapse">
+            <thead>
+              <tr>
+                {scheduleData.map((dayData, index) => (
+                  <th key={index} className="bg-black text-white text-center py-4 print:py-1 border-2 border-black print:border-black print:border">
+                    <span className="font-bold tracking-widest text-sm uppercase print:text-[10px]">{dayData.day}</span>
+                  </th>
                 ))}
-                <div className="flex-grow bg-white min-h-[100px] print:min-h-0 print:hidden"></div> {/* empty space filler */}
-              </div>
-            </div>
-          ))}
+              </tr>
+            </thead>
+            <tbody>
+              {["6:00 AM", "10:00 AM", "11:00 AM", "11:30 AM", "12:00 PM", "4:00 PM", "4:30 PM", "5:30 PM", "6:30 PM"].map((time, timeIdx) => (
+                <tr key={timeIdx}>
+                  {scheduleData.map((dayData, dayIdx) => {
+                    const classesAtTime = dayData.classes.filter(c => c.time === time);
+                    return (
+                      <td key={dayIdx} className="border-2 border-black p-0 align-top bg-white print:border-black print:border break-inside-avoid" style={{ pageBreakInside: 'avoid' }}>
+                        {classesAtTime.length > 0 ? (
+                          <div className="flex flex-col h-full">
+                            {classesAtTime.map((cls, idx) => (
+                              <div key={idx} className="p-4 flex-grow relative hover:bg-zinc-50 transition-colors print:px-[6px] print:py-[4px] border-b-2 border-zinc-200 print:border-b print:border-zinc-300 last:border-b-0 break-inside-avoid" style={{ pageBreakInside: 'avoid' }}>
+                                {cls.tag && (
+                                  <span className="bg-black text-white text-[10px] font-bold px-2 py-0.5 absolute top-0 right-0 tracking-wider print:text-[7px] print:px-1 print:py-0">
+                                    {cls.tag}
+                                  </span>
+                                )}
+                                <div className="font-black text-[13px] mb-1 mt-1 tracking-tight print:text-[10px] print:m-0">{cls.time}</div>
+                                <div className="font-bold text-[14px] leading-tight uppercase font-heading print:text-[12px]">{cls.name}</div>
+                                <div className="text-[11px] font-bold text-zinc-500 mt-1 uppercase leading-tight whitespace-pre-line print:text-[9px] print:mt-0">{cls.details}</div>
+                              </div>
+                            ))}
+                          </div>
+                        ) : (
+                          <div className="w-full h-full min-h-[60px] print:min-h-[40px]"></div>
+                        )}
+                      </td>
+                    );
+                  })}
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </div>
 
         {/* Mobile View (Hidden on Desktop and Print) */}
