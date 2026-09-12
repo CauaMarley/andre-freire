@@ -59,7 +59,6 @@ const scheduleData = [
     classes: [
       { time: "10:00 AM", name: "Little Bulldogs & Bulldogs", details: "4 - 13 Years Old (Gi)", tag: "" },
       { time: "11:00 AM", name: "Adults & Teens", details: "All Levels (Gi)", tag: "" },
-      { time: "12:00 PM", name: "Sparring", details: "", tag: "" },
     ]
   }
 ];
@@ -138,7 +137,7 @@ export function ScheduleGrid() {
               </tr>
             </thead>
             <tbody>
-              {["6:00 AM", "10:00 AM", "11:00 AM", "11:30 AM", "12:00 PM", "4:00 PM", "4:30 PM", "5:30 PM", "6:00 PM", "6:30 PM"].map((time, timeIdx) => (
+              {["6:00 AM", "10:00 AM", "11:00 AM", "11:30 AM", "4:00 PM", "4:30 PM", "5:30 PM", "6:00 PM", "6:30 PM"].map((time, timeIdx) => (
                 <tr key={timeIdx}>
                   {scheduleData.map((dayData, dayIdx) => {
                     const classesAtTime = dayData.classes.filter(c => c.time === time);
