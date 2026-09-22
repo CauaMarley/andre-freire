@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 const instructors = [
   {
     name: "Professor André Freire",
-    role: "Head Instructor / 3rd-Degree Black Belt",
-    bio: "André Freire is a bonafide Brazilian with a 3rd-degree black belt in Brazilian Jiu-Jitsu, who has extensive teaching experience and who enjoys sharing his skills as he teaches both children and adult classes in Brazilian Jiu-Jitsu. André believes that respect is an important value in life and that you must give respect to get respect. To André fighting and competing teaches respect. He also believes that being a martial artist isn’t just about winning or losing, but rather, it’s about controlling your feelings and centering yourself, so much so that nothing can disturb your mind. And when the fighting is done, or the competition is over, he believes it is giving and showing respect to and for the others who had the courage to step onto the battlefield; thus, developing their warrior spirit.",
+    role: "Head Instructor / 4th-Degree Black Belt",
+    bio: "André Freire is a bonafide Brazilian with a 4th-degree black belt in Brazilian Jiu-Jitsu, who has extensive teaching experience and who enjoys sharing his skills as he teaches both children and adult classes in Brazilian Jiu-Jitsu. André believes that respect is an important value in life and that you must give respect to get respect. To André fighting and competing teaches respect. He also believes that being a martial artist isn’t just about winning or losing, but rather, it’s about controlling your feelings and centering yourself, so much so that nothing can disturb your mind. And when the fighting is done, or the competition is over, he believes it is giving and showing respect to and for the others who had the courage to step onto the battlefield; thus, developing their warrior spirit.",
     image: "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/05/SnapInsta.to_467954322_18470802808018850_5966120767544216934_n.jpg",
     link: "/andre"
   },
   {
-    name: "Coach Dan Modrzejewski",
-    role: "Brown Belt / Fundamental & Executive Class",
+    name: "Professor Dan Modrzejewski",
+    role: "Black Belt / Fundamental & Executive Class",
     bio: "Dr. Dan Modrzejewski is a native of Tucson, Arizona. His initial martial arts training began in middle school where he participated in Kenpo Karate earning his brown belt, then moved to wrestling in high school and college. Dan has been involved with Jiu Jitsu for over 10 years and has been with Carlson Gracie Tucson since their opening. He currently coaches the Fundamental and Executive classes. Dan retired after 30 years in the Fire and Emergency Medical services industry.",
     image: "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-24-at-14.11.48.webp",
     link: "/coach-dan-modrzejewski"

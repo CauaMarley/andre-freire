@@ -24,7 +24,7 @@ const AdultsTeensJiuJitsu = lazy(() => import('./pages/AdultsTeensJiuJitsu').the
 const CompetitionJiuJitsu = lazy(() => import('./pages/CompetitionJiuJitsu').then(module => ({ default: module.CompetitionJiuJitsu })));
 const WomensOnlyJiuJitsu = lazy(() => import('./pages/WomensOnlyJiuJitsu').then(module => ({ default: module.WomensOnlyJiuJitsu })));
 const Andre = lazy(() => import('./pages/Andre').then(module => ({ default: module.Andre })));
-const CoachDan = lazy(() => import('./pages/CoachDan').then(module => ({ default: module.CoachDan })));
+const CoachDan = lazy(() => import('./pages/CoachDan').then(module => ({ default: module.ProfessorDan })));
 const NathanWright = lazy(() => import('./pages/NathanWright').then(module => ({ default: module.NathanWright })));
 const EmeryFesler = lazy(() => import('./pages/EmeryFesler').then(module => ({ default: module.EmeryFesler })));
 const Contact = lazy(() => import('./pages/Contact').then(module => ({ default: module.Contact })));

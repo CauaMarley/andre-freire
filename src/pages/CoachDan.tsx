@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 
-export function CoachDan() {
+export function ProfessorDan() {
   return (
     <main className="pt-24 bg-white text-zinc-900 pb-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12">
@@ -8,7 +8,7 @@ export function CoachDan() {
         {/* Header Title */}
         <div className="mb-12 border-b-2 border-red-600 inline-block pb-2">
           <h1 className="text-red-700 text-3xl md:text-4xl font-heading font-medium tracking-wide">
-            Coach Dan Modrzejewski (Brown Belt)
+            Professor Dan Modrzejewski (Black Belt)
           </h1>
           <h2 className="text-5xl md:text-6xl font-heading font-light tracking-tight mt-1 text-zinc-900">
             Instructor of Fundamental and Executive Class
@@ -46,7 +46,7 @@ export function CoachDan() {
           >
             <img 
               src="https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-24-at-14.11.48.webp" 
-              alt="Coach Dan Modrzejewski" 
+              alt="Professor Dan Modrzejewski" 
               className="w-full h-auto object-contain object-center"
             />
           </motion.div>

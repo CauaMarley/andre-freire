@@ -26,7 +26,7 @@ export function Andre() {
           >
             <h3 className="text-3xl font-heading font-medium mb-4">Biography</h3>
             <p className="text-lg text-zinc-700 mb-6 leading-relaxed">
-              André Freire is a <span className="font-bold">bonafide Brazilian</span> with a 3rd-degree black belt in Brazilian Jiu-Jitsu, who has extensive teaching experience and who enjoys sharing his skills as he teaches both children and adult classes in Brazilian Jiu-Jitsu.
+              André Freire is a <span className="font-bold">bonafide Brazilian</span> with a 4th-degree black belt in Brazilian Jiu-Jitsu, who has extensive teaching experience and who enjoys sharing his skills as he teaches both children and adult classes in Brazilian Jiu-Jitsu.
             </p>
             <p className="text-lg text-zinc-700 mb-6 leading-relaxed">
               André believes that respect is an important value in life and that you must give respect to get respect. To André fighting and competing teaches respect. He also believes that being a martial artist isn’t just about winning or losing, but rather, it’s about controlling your feelings and centering yourself, so much so that nothing can disturb your mind. And when the fighting is done, or the competition is over, he believes it is giving and showing respect to and for the others who had the courage to step onto the battlefield; thus, developing their warrior spirit.
@@ -137,7 +137,7 @@ export function Andre() {
           >
             <h3 className="text-3xl font-heading font-medium mb-4">Carlson Gracie Tucson</h3>
             <p className="text-lg text-zinc-700 mb-6 leading-relaxed">
-              Today André brings to Tucson, AZ, his extensive worldwide competing and teaching experience. As a Brazilian Jiu-Jitsu instructor, who has taught and coached both children and adults, André’s Degree in Physical Education (UNIFOR), post-degree in Martial Arts (UECE), his many years of experience as a competitive athlete and more than 20+ years of Jiu-jitsu practice as a 3rd degree black belt, André’s skills and magnetic personality are a huge benefit to the Tucson Jiu-Jitsu community. André is very excited to be the Head Professor leading the 1st Carlson Gracie Tucson Academy and dedicating all his experience to the people of this community as a <span className="font-bold">legit</span> Brazilian Jiu-Jitsu black belt Professor.
+              Today André brings to Tucson, AZ, his extensive worldwide competing and teaching experience. As a Brazilian Jiu-Jitsu instructor, who has taught and coached both children and adults, André’s Degree in Physical Education (UNIFOR), post-degree in Martial Arts (UECE), his many years of experience as a competitive athlete and more than 20+ years of Jiu-jitsu practice as a 4th degree black belt, André’s skills and magnetic personality are a huge benefit to the Tucson Jiu-Jitsu community. André is very excited to be the Head Professor leading the 1st Carlson Gracie Tucson Academy and dedicating all his experience to the people of this community as a <span className="font-bold">legit</span> Brazilian Jiu-Jitsu black belt Professor.
             </p>
           </motion.div>
         </div>
