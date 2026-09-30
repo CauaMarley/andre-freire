@@ -7,6 +7,7 @@ import { Suspense, lazy, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
+import { MediaUploaderModal } from './components/MediaUploaderModal';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -24,7 +25,7 @@ const AdultsTeensJiuJitsu = lazy(() => import('./pages/AdultsTeensJiuJitsu').the
 const CompetitionJiuJitsu = lazy(() => import('./pages/CompetitionJiuJitsu').then(module => ({ default: module.CompetitionJiuJitsu })));
 const WomensOnlyJiuJitsu = lazy(() => import('./pages/WomensOnlyJiuJitsu').then(module => ({ default: module.WomensOnlyJiuJitsu })));
 const Andre = lazy(() => import('./pages/Andre').then(module => ({ default: module.Andre })));
-const CoachDan = lazy(() => import('./pages/CoachDan').then(module => ({ default: module.ProfessorDan })));
+const CoachDan = lazy(() => import('./pages/CoachDan').then(module => ({ default: module.CoachDan || module.ProfessorDan })));
 const NathanWright = lazy(() => import('./pages/NathanWright').then(module => ({ default: module.NathanWright })));
 const EmeryFesler = lazy(() => import('./pages/EmeryFesler').then(module => ({ default: module.EmeryFesler })));
 const Contact = lazy(() => import('./pages/Contact').then(module => ({ default: module.Contact })));
@@ -88,6 +89,7 @@ export default function App() {
           </Routes>
         </Suspense>
         <Footer />
+        <MediaUploaderModal />
         
         {/* Floating Try Class Button */}
         <Link 

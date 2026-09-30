@@ -3,6 +3,7 @@ import { Testimonials } from '../components/Testimonials';
 import { IntroSection } from '../components/IntroSection';
 import { Programs } from '../components/Programs';
 import { OurSchool } from '../components/OurSchool';
+import { TeamCommunity } from '../components/TeamCommunity';
 import { Instructors } from '../components/Instructors';
 import { ImageCarousel } from '../components/ImageCarousel';
 import { Schedule } from '../components/Schedule';
@@ -18,6 +19,7 @@ export function Home() {
       <IntroSection />
       <Programs />
       <OurSchool />
+      <TeamCommunity />
       <Instructors />
       <Schedule />
       <ImageCarousel />
