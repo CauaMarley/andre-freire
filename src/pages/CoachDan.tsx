@@ -42,18 +42,20 @@ export function CoachDan() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="rounded-[3rem] overflow-hidden shadow-2xl w-full flex items-center justify-center bg-zinc-100"
+            className="rounded-[3rem] overflow-hidden shadow-2xl w-full flex items-center justify-center bg-zinc-900 border border-zinc-800"
           >
             <img 
-              src={danPortraitUrl || "https://i.imgur.com/WU2QoKR.jpeg"}
+              src={danPortraitUrl || "https://i.imgur.com/kU9qdfU.jpeg"}
               onError={(e) => {
                 const target = e.currentTarget;
-                if (target.src !== "https://i.imgur.com/WU2QoKR.jpeg") {
-                  target.src = "https://i.imgur.com/WU2QoKR.jpeg";
+                if (target.src !== "https://i.imgur.com/kU9qdfU.jpeg") {
+                  target.src = "https://i.imgur.com/kU9qdfU.jpeg";
                 }
               }}
-              alt="Professor Dan Modrzejewski Black Belt"
-              className="w-full max-h-[650px] object-cover object-top"
+              alt="Coach Dan Modrzejewski"
+              className="w-full max-h-[650px] object-contain object-center"
+              loading="eager"
+              decoding="async"
             />
           </motion.div>
         </div>
@@ -73,7 +75,7 @@ export function CoachDan() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="rounded-[3rem] overflow-hidden shadow-2xl max-w-4xl mx-auto"
+            className="rounded-[3rem] overflow-hidden shadow-2xl max-w-4xl mx-auto bg-zinc-900 border border-zinc-800 flex items-center justify-center"
           >
             <img 
               src={danBlackBeltUrl || "https://i.imgur.com/WU2QoKR.jpeg"}
@@ -84,8 +86,9 @@ export function CoachDan() {
                 }
               }}
               alt="Professor Dan Modrzejewski Black Belt Promotion with Professor André Freire"
-              className="w-full h-auto object-cover object-center"
+              className="w-full max-h-[700px] object-contain object-center"
               loading="lazy"
+              decoding="async"
             />
           </motion.div>
         </div>
