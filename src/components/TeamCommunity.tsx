@@ -39,11 +39,11 @@ export function TeamCommunity() {
           className="relative rounded-2xl overflow-hidden border-2 border-zinc-800 shadow-2xl shadow-red-950/20 group"
         >
           <img
-            src={bannerTurmaUrl}
+            src={bannerTurmaUrl || "https://i.imgur.com/gpOTp4h.jpeg"}
             onError={(e) => {
               const target = e.currentTarget;
-              if (target.src !== "/images/banner-turma.jpeg") {
-                target.src = "/images/banner-turma.jpeg";
+              if (target.src !== "https://i.imgur.com/gpOTp4h.jpeg") {
+                target.src = "https://i.imgur.com/gpOTp4h.jpeg";
               }
             }}
             alt="Carlson Gracie Tucson Jiu-Jitsu Team Class"

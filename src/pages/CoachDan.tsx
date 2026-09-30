@@ -42,18 +42,18 @@ export function CoachDan() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="rounded-[3rem] overflow-hidden shadow-2xl w-full"
+            className="rounded-[3rem] overflow-hidden shadow-2xl w-full flex items-center justify-center bg-zinc-100"
           >
             <img 
-              src={danPortraitUrl}
+              src={danPortraitUrl || "https://i.imgur.com/WU2QoKR.jpeg"}
               onError={(e) => {
                 const target = e.currentTarget;
-                if (target.src !== "/images/dan-modrzejewski.jpeg") {
-                  target.src = "/images/dan-modrzejewski.jpeg";
+                if (target.src !== "https://i.imgur.com/WU2QoKR.jpeg") {
+                  target.src = "https://i.imgur.com/WU2QoKR.jpeg";
                 }
               }}
-              alt="Professor Dan Modrzejewski"
-              className="w-full h-auto object-contain object-center"
+              alt="Professor Dan Modrzejewski Black Belt"
+              className="w-full max-h-[650px] object-cover object-top"
             />
           </motion.div>
         </div>
@@ -76,11 +76,11 @@ export function CoachDan() {
             className="rounded-[3rem] overflow-hidden shadow-2xl max-w-4xl mx-auto"
           >
             <img 
-              src={danBlackBeltUrl}
+              src={danBlackBeltUrl || "https://i.imgur.com/WU2QoKR.jpeg"}
               onError={(e) => {
                 const target = e.currentTarget;
-                if (target.src !== "/images/dan-modrzejewski-black-belt.jpeg") {
-                  target.src = "/images/dan-modrzejewski-black-belt.jpeg";
+                if (target.src !== "https://i.imgur.com/WU2QoKR.jpeg") {
+                  target.src = "https://i.imgur.com/WU2QoKR.jpeg";
                 }
               }}
               alt="Professor Dan Modrzejewski Black Belt Promotion with Professor André Freire"

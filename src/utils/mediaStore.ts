@@ -7,11 +7,21 @@ export type MediaSlot =
   | 'dan_portrait' 
   | 'dan_blackbelt';
 
+export function extractYouTubeId(urlOrId: string | null | undefined): string | null {
+  if (!urlOrId) return null;
+  const trimmed = urlOrId.trim();
+  if (/^[a-zA-Z0-9_-]{11}$/.test(trimmed)) {
+    return trimmed;
+  }
+  const match = trimmed.match(/(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))([\w-]{11})/);
+  return match ? match[1] : null;
+}
+
 const DEFAULT_MEDIA: Record<MediaSlot, string> = {
   hero_video: '/lv_0_20260922212021 (1) (1).mp4',
-  banner_turma: '/banner turma.jpeg',
-  dan_portrait: '/Dan Modrzejewski.jpeg',
-  dan_blackbelt: '/Dan Modrzejewski black belt.jpeg',
+  banner_turma: 'https://i.imgur.com/gpOTp4h.jpeg',
+  dan_portrait: 'https://i.imgur.com/WU2QoKR.jpeg',
+  dan_blackbelt: 'https://i.imgur.com/WU2QoKR.jpeg',
 };
 
 // IndexedDB database name and store
