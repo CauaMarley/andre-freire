@@ -13,10 +13,10 @@ interface SlotConfig {
 const SLOTS: SlotConfig[] = [
   {
     key: 'hero_video',
-    title: 'Vídeo Oficial da Hero (lv_0_20260930183346.mp4)',
-    expectedFilename: 'lv_0_20260930183346.mp4',
+    title: 'Vídeo Principal da Home (videohome.mp4)',
+    expectedFilename: 'videohome.mp4',
     type: 'video',
-    description: 'Vídeo oficial de apresentação da academia (lv_0_20260930183346.mp4) exibido na proporção original.',
+    description: 'Vídeo oficial de apresentação da academia (videohome.mp4).',
   },
   {
     key: 'banner_turma',
