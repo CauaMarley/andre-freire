@@ -13,10 +13,10 @@ interface SlotConfig {
 const SLOTS: SlotConfig[] = [
   {
     key: 'hero_video',
-    title: 'Vídeo do Banner Principal (Hero)',
-    expectedFilename: 'lv_0_20260922212021 (1) (1).mp4 ou Link do YouTube',
+    title: 'Vídeo Oficial da Hero (lv_0_20260930183346.mp4)',
+    expectedFilename: 'lv_0_20260930183346.mp4',
     type: 'video',
-    description: 'Vídeo de apresentação da academia que roda em loop no topo da Home (aceita arquivo .mp4 ou link/ID do YouTube em resolução máxima).',
+    description: 'Vídeo oficial de apresentação da academia (lv_0_20260930183346.mp4) exibido na proporção original.',
   },
   {
     key: 'banner_turma',
@@ -237,7 +237,7 @@ export function MediaUploaderModal() {
                         <div className="relative flex-1">
                           <input 
                             type="text" 
-                            placeholder={slot.key === 'hero_video' ? "Ou cole o link do YouTube (ex: https://youtu.be/...)" : "Ou cole o link da imagem (URL pública)"}
+                            placeholder={slot.key === 'hero_video' ? "Ou cole a URL direta do vídeo MP4" : "Ou cole o link da imagem (URL pública)"}
                             value={urlInputs[slot.key]}
                             onChange={(e) => setUrlInputs({ ...urlInputs, [slot.key]: e.target.value })}
                             onKeyDown={(e) => { if (e.key === 'Enter') handleApplyUrl(slot.key); }}

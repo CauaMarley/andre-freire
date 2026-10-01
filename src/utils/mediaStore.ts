@@ -18,7 +18,7 @@ export function extractYouTubeId(urlOrId: string | null | undefined): string | n
 }
 
 const DEFAULT_MEDIA: Record<MediaSlot, string> = {
-  hero_video: 'https://youtu.be/R7FJxP_joak',
+  hero_video: '/videos/lv_0_20260930183346.mp4',
   banner_turma: 'https://i.imgur.com/gpOTp4h.jpeg',
   dan_portrait: 'https://i.imgur.com/kU9qdfU.jpeg',
   dan_blackbelt: 'https://i.imgur.com/WU2QoKR.jpeg',
@@ -51,8 +51,8 @@ export async function getStoredMedia(slot: MediaSlot): Promise<string> {
       const req = store.get(slot);
       req.onsuccess = () => {
         if (req.result && typeof req.result === 'string') {
-          // If stored result was an old default local mp4, auto-upgrade to the new YouTube video
-          if (slot === 'hero_video' && (req.result.includes('lv_0_') || req.result.includes('academy-presentation.mp4'))) {
+          // If stored result was an old YouTube URL or older video clip, migrate to new default
+          if (slot === 'hero_video' && (req.result.includes('youtu') || req.result.includes('academy-presentation') || req.result.includes('lv_0_20260922'))) {
             resolve(DEFAULT_MEDIA[slot]);
           } else if (slot === 'dan_portrait' && req.result.includes('WU2QoKR')) {
             // Avoid duplicate with black belt photo
