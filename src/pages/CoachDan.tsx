@@ -1,10 +1,6 @@
 import { motion } from "motion/react";
-import { useMediaUrl } from "../utils/mediaStore";
 
 export function CoachDan() {
-  const danPortraitUrl = useMediaUrl('dan_portrait');
-  const danBlackBeltUrl = useMediaUrl('dan_blackbelt');
-
   return (
     <main className="pt-24 bg-white text-zinc-900 pb-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12">
@@ -18,7 +14,7 @@ export function CoachDan() {
           </h2>
         </div>
 
-        {/* Biography Section with First Strategic Image */}
+        {/* Biography Section with First Image (Original dimensions, no lateral black bars) */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
@@ -37,30 +33,25 @@ export function CoachDan() {
               <strong className="text-zinc-900">Dan Modrzejewski</strong>
             </p>
           </motion.div>
+
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="rounded-[3rem] overflow-hidden shadow-2xl w-full flex items-center justify-center bg-zinc-900 border border-zinc-800"
+            className="w-fit max-w-full mx-auto rounded-3xl overflow-hidden shadow-2xl border border-zinc-200"
           >
             <img 
-              src={danPortraitUrl || "https://i.imgur.com/kU9qdfU.jpeg"}
-              onError={(e) => {
-                const target = e.currentTarget;
-                if (target.src !== "https://i.imgur.com/kU9qdfU.jpeg") {
-                  target.src = "https://i.imgur.com/kU9qdfU.jpeg";
-                }
-              }}
-              alt="Coach Dan Modrzejewski"
-              className="w-full max-h-[650px] object-contain object-center"
+              src="/images/Dan Modrzejewski black belt.jpeg"
+              alt="Professor Dan Modrzejewski Black Belt Promotion with Professor André Freire"
+              className="w-auto max-h-[650px] h-auto block"
               loading="eager"
               decoding="async"
             />
           </motion.div>
         </div>
 
-        {/* Second Strategic Image: Black Belt Promotion Ceremony */}
+        {/* Second Image: Dan foto oficial.jpeg (Original dimensions, no lateral black bars) */}
         <div className="mb-24">
           <div className="mb-8 border-b border-zinc-200 pb-3">
             <h3 className="text-2xl md:text-3xl font-heading font-medium text-zinc-900">
@@ -75,18 +66,12 @@ export function CoachDan() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="rounded-[3rem] overflow-hidden shadow-2xl max-w-4xl mx-auto bg-zinc-900 border border-zinc-800 flex items-center justify-center"
+            className="w-fit max-w-full mx-auto rounded-3xl overflow-hidden shadow-2xl border border-zinc-200"
           >
             <img 
-              src={danBlackBeltUrl || "https://i.imgur.com/WU2QoKR.jpeg"}
-              onError={(e) => {
-                const target = e.currentTarget;
-                if (target.src !== "https://i.imgur.com/WU2QoKR.jpeg") {
-                  target.src = "https://i.imgur.com/WU2QoKR.jpeg";
-                }
-              }}
-              alt="Professor Dan Modrzejewski Black Belt Promotion with Professor André Freire"
-              className="w-full max-h-[700px] object-contain object-center"
+              src="/images/Dan foto oficial.jpeg"
+              alt="Professor Dan Modrzejewski Official Black Belt Portrait"
+              className="w-auto max-h-[700px] h-auto block"
               loading="lazy"
               decoding="async"
             />

@@ -65,11 +65,15 @@ export function Programs() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="group relative h-96 rounded-lg overflow-hidden bg-zinc-900 shadow-xl"
             >
-              {/* Background Image */}
-              <div 
-                className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
-                style={{ backgroundImage: `url(${program.image})` }}
-              >
+              {/* Optimized Lazy-Loaded Image */}
+              <div className="absolute inset-0 overflow-hidden">
+                <img
+                  src={program.image}
+                  alt={program.title}
+                  loading="lazy"
+                  decoding="async"
+                  className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-110"
+                />
                 <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/80 to-transparent opacity-90 group-hover:opacity-70 transition-opacity duration-300"></div>
               </div>
               

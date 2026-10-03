@@ -20,8 +20,8 @@ export function extractYouTubeId(urlOrId: string | null | undefined): string | n
 const DEFAULT_MEDIA: Record<MediaSlot, string> = {
   hero_video: '/videos/videohome.mp4',
   banner_turma: 'https://i.imgur.com/gpOTp4h.jpeg',
-  dan_portrait: 'https://i.imgur.com/kU9qdfU.jpeg',
-  dan_blackbelt: 'https://i.imgur.com/WU2QoKR.jpeg',
+  dan_portrait: '/images/Dan Modrzejewski black belt.jpeg',
+  dan_blackbelt: '/images/Dan foto oficial.jpeg',
 };
 
 // IndexedDB database name and store
@@ -54,8 +54,7 @@ export async function getStoredMedia(slot: MediaSlot): Promise<string> {
           // If stored result was an old video or YouTube URL, migrate to videohome.mp4
           if (slot === 'hero_video' && !req.result.startsWith('data:video') && !req.result.includes('videohome.mp4')) {
             resolve(DEFAULT_MEDIA[slot]);
-          } else if (slot === 'dan_portrait' && req.result.includes('WU2QoKR')) {
-            // Avoid duplicate with black belt photo
+          } else if ((slot === 'dan_portrait' || slot === 'dan_blackbelt') && !req.result.startsWith('data:image')) {
             resolve(DEFAULT_MEDIA[slot]);
           } else {
             resolve(req.result);

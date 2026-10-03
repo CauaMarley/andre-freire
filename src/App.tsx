@@ -7,7 +7,7 @@ import { Suspense, lazy, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
-import { MediaUploaderModal } from './components/MediaUploaderModal';
+import { Home } from './pages/Home';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -19,7 +19,12 @@ function ScrollToTop() {
   return null;
 }
 
-const Home = lazy(() => import('./pages/Home').then(module => ({ default: module.Home })));
+// Lazy-load editor-only modal so public visitors do not download it on initial load
+const MediaUploaderModal = lazy(() =>
+  import('./components/MediaUploaderModal').then(module => ({ default: module.MediaUploaderModal }))
+);
+
+// Route-level code splitting for secondary pages (Home is eagerly loaded for optimal LCP)
 const KidsJiuJitsu = lazy(() => import('./pages/KidsJiuJitsu').then(module => ({ default: module.KidsJiuJitsu })));
 const AdultsTeensJiuJitsu = lazy(() => import('./pages/AdultsTeensJiuJitsu').then(module => ({ default: module.AdultsTeensJiuJitsu })));
 const CompetitionJiuJitsu = lazy(() => import('./pages/CompetitionJiuJitsu').then(module => ({ default: module.CompetitionJiuJitsu })));
@@ -89,7 +94,9 @@ export default function App() {
           </Routes>
         </Suspense>
         <Footer />
-        <MediaUploaderModal />
+        <Suspense fallback={null}>
+          <MediaUploaderModal />
+        </Suspense>
         
         {/* Floating Try Class Button */}
         <Link 

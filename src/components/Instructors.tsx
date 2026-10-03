@@ -13,7 +13,7 @@ const instructors = [
     name: "Professor Dan Modrzejewski",
     role: "Black Belt / Fundamental & Executive Class",
     bio: "Dr. Dan Modrzejewski is a native of Tucson, Arizona. His initial martial arts training began in middle school where he participated in Kenpo Karate earning his brown belt, then moved to wrestling in high school and college. Dan has been involved with Jiu Jitsu for over 10 years and has been with Carlson Gracie Tucson since their opening. He currently coaches the Fundamental and Executive classes. Dan retired after 30 years in the Fire and Emergency Medical services industry.",
-    image: "https://lightcyan-jellyfish-205832.hostingersite.com/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-24-at-14.11.48.webp",
+    image: "/images/Dan Bio Foto.jpeg",
     link: "/coach-dan-modrzejewski"
   },
   {
@@ -58,12 +58,14 @@ export function Instructors() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className={`flex flex-col gap-8 md:gap-16 items-center ${index % 2 !== 0 ? 'md:flex-row-reverse' : 'md:flex-row'}`}
             >
-              <div className="w-full md:w-1/2">
-                <div className="relative aspect-[4/3] rounded-lg overflow-hidden border-l-4 border-red-600 bg-zinc-900">
+              <div className="w-full md:w-1/2 flex justify-center">
+                <div className="relative w-fit max-w-full rounded-xl overflow-hidden border-l-4 border-red-600 shadow-2xl">
                   <img 
                     src={instructor.image} 
                     alt={instructor.name} 
-                    className="w-full h-full object-contain"
+                    loading="lazy"
+                    decoding="async"
+                    className="w-auto max-h-[540px] h-auto block"
                   />
                 </div>
               </div>
