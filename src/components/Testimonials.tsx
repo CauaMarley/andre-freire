@@ -90,7 +90,7 @@ const testimonials = [
     id: "10",
     name: "Candace Downard",
     time: "1 year ago",
-    text: "Unlock your full potential at Carlson Gracie Tucson Jujitsu and Muay Thai, a premier martial arts institution that has been a transformative experience for my husband and 2 children. The staff and coaches are exceptional. You won't find a better children's program in Tucson. They consistently maintain exceptional coach to student ratios in class. The adult programs offer a competitive atmosphere while also featuring an executive program (40+) for those still wishing to train at a slower pace. The staff and coaches have become an integral part of our family and I cannot imagine not having Carlson Gracie Tucson in our life.",
+    text: "Unlock your full potential at Carlson Gracie Tucson Jiu-Jitsu, a premier martial arts institution that has been a transformative experience for my husband and 2 children. The staff and coaches are exceptional. You won't find a better children's program in Tucson. They consistently maintain exceptional coach to student ratios in class. The adult programs offer a competitive atmosphere while also featuring an executive program (40+) for those still wishing to train at a slower pace. The staff and coaches have become an integral part of our family and I cannot imagine not having Carlson Gracie Tucson in our life.",
     rating: 5,
     initial: "C",
     color: "bg-orange-800"

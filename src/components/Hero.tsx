@@ -169,7 +169,7 @@ export function Hero() {
                 style={{ textShadow: "1px 1px 6px rgba(0,0,0,0.95)" }}
                 className="text-sm sm:text-base lg:text-lg text-zinc-100 max-w-2xl mx-auto mb-6 lg:mb-8 font-normal leading-relaxed"
               >
-                Experience world-class Brazilian Jiu-Jitsu, Muay Thai, and Self-Defense in an empowering, family-friendly environment.
+                Experience world-class Brazilian Jiu-Jitsu and Self-Defense in an empowering, family-friendly environment.
               </motion.p>
 
               {/* CTA Action Buttons */}
@@ -315,7 +315,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-sm text-zinc-300 max-w-md mx-auto mb-5 font-normal leading-relaxed"
           >
-            Experience world-class Brazilian Jiu-Jitsu, Muay Thai, and Self-Defense in an empowering, family-friendly environment.
+            Experience world-class Brazilian Jiu-Jitsu and Self-Defense in an empowering, family-friendly environment.
           </motion.p>
 
           {/* 
